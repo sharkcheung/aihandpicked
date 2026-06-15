@@ -1,0 +1,30 @@
+baseURL = "https://aihandpicked.xyz"
+languageCode = "en-us"
+title = "AI Handpicked"
+theme = "PaperMod"
+enableRobotsTXT = true
+enableEmoji = true
+disableLanguages = []
+
+[params]
+  env = "production"
+  description = "Discover the best AI tools for writing, coding, design, video, and more."
+  author = "AI Handpicked"
+  label = { text = "AI Handpicked" }
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowReadingTime = true
+  mainSections = ["tools", "categories"]
+  copyright = "© 2026 AI Handpicked"
+
+[markup.highlight]
+  noClasses = false
+  lineNos = true
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 6
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
