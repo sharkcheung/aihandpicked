@@ -12,9 +12,10 @@ AI image generators transform text prompts into stunning visuals — from photor
 ## Top AI Image Tools
 
 - **[Midjourney](/tools/midjourney/)** — Best overall quality, artistic style
-- **[DALL-E 3](/tools/dalle/)** — Seamless ChatGPT integration, accurate prompt following
-- **[Stable Diffusion](/tools/stable-diffusion/)** — Open-source, runs locally
-- **[Leonardo.ai](/tools/leonardo/)** — Great for game assets and anime style
+- **[DALL·E 3](/tools/dall-e-3/)** — Best text-in-image rendering, ChatGPT integration
+- **[Stable Diffusion](/tools/stable-diffusion/)** — Free, open-source, unlimited control
+- **[Leonardo.ai](/tools/leonardo/)** — Best for game assets and character design
+- **[Ideogram](/tools/ideogram/)** — Best for logos and graphics with text
 
 ## What to Look For
 

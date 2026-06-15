@@ -12,11 +12,11 @@ Whether you're looking for AI writing assistants, image generators, code helpers
 
 Browse our handpicked selection of the best AI tools across different categories:
 
-- **AI Writing** — ChatGPT, Claude, Jasper, Copy.ai
-- **AI Image Generation** — Midjourney, DALL-E 3, Stable Diffusion, Leonardo.ai
-- **AI Coding** — GitHub Copilot, Cursor, Replit, Codeium
-- **AI Video** — Runway, Pika, Synthesia, HeyGen
-- **AI Audio** — ElevenLabs, Murf, Descript, Wellsaid
+- **AI Writing** — [ChatGPT](/tools/chatgpt/), [Claude](/tools/claude/), [Jasper](/tools/jasper/), [Copy.ai](/tools/copy-ai/), [Notion AI](/tools/notion-ai/)
+- **AI Image Generation** — [Midjourney](/tools/midjourney/), [DALL·E 3](/tools/dall-e-3/), [Stable Diffusion](/tools/stable-diffusion/), [Leonardo.ai](/tools/leonardo/), [Ideogram](/tools/ideogram/)
+- **AI Coding** — [GitHub Copilot](/tools/github-copilot/), [Cursor](/tools/cursor/), [Replit](/tools/replit/), [Codeium](/tools/codeium/)
+- **AI Video** — [Runway](/tools/runway/), [Pika](/tools/pika/), [HeyGen](/tools/heygen/)
+- **AI Audio** — [ElevenLabs](/tools/elevenlabs/), [Murf](/tools/murf/), [Descript](/tools/descript/)
 
 ## 📊 Why Choose AI Handpicked?
 
