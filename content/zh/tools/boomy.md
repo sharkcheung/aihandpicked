@@ -1,10 +1,11 @@
----
+﻿---
 title: "Boomy — 生成音乐并发布到全球平台"
 date: 2026-06-15
 draft: false
 description: "Boomy是AI音乐生成平台，可以生成原创音乐并一键发布到YouTube、Spotify等全球音乐平台。"
 categories: ["audio"]
 tags: ["AI音乐", "发布", "免费"]
+slug: "boomy"
 ---
 
 # Boomy

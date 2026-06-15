@@ -1,10 +1,11 @@
----
+﻿---
 title: "Copy.ai — 免费AI文案生成工具"
 date: 2026-06-15
 draft: false
 description: "Copy.ai是免费好用的AI文案工具，支持100+文案类型，博客、社交、邮件、销售文案全覆盖。免费版可用，Pro $49/月。"
 categories: ["ai-writing"]
 tags: ["AI写作", "免费", "文案", "营销"]
+slug: "copy-ai"
 ---
 
 # Copy.ai

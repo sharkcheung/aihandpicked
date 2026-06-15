@@ -1,10 +1,11 @@
----
+﻿---
 title: "ChatGPT — 最强全能AI助手"
 date: 2026-06-15
 draft: false
 description: "ChatGPT是OpenAI开发的全能型AI助手，支持多模态（文字/图片/语音），ChatGPT-4o免费使用，Plus会员$20/月。"
 categories: ["ai-writing"]
 tags: ["AI写作", "AI助手", "免费", "多模态"]
+slug: "chatgpt"
 ---
 
 # ChatGPT

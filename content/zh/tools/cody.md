@@ -1,10 +1,11 @@
----
+﻿---
 title: "Cody — Sourcegraph出品的AI编程助手"
 date: 2026-06-15
 draft: false
 description: "Cody是Sourcegraph开发的AI编程助手，深度理解代码库上下文。免费版可用，专业版$9/人/月。"
 categories: ["ai-coding"]
 tags: ["AI编程", "代码库", "免费"]
+slug: "cody"
 ---
 
 # Cody

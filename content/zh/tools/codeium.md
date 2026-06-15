@@ -1,10 +1,11 @@
----
+﻿---
 title: "Codeium — 完全免费的AI代码助手"
 date: 2026-06-15
 draft: false
 description: "Codeium是GitHub Copilot的免费替代品，AI代码补全完全免费，支持50+语言，企业版可用。VS Code等IDE集成。"
 categories: ["ai-coding"]
 tags: ["AI编程", "免费", "代码补全"]
+slug: "codeium"
 ---
 
 # Codeium

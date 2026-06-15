@@ -1,10 +1,11 @@
----
+﻿---
 title: "Adobe Premiere Pro AI — 视频剪辑+AI"
 date: 2026-06-15
 draft: false
 description: "Adobe Premiere Pro内置AI功能，包括语音转文字、自动剪辑、音乐推荐等。Firefly AI也可集成。"
 categories: ["video"]
 tags: ["AI视频", "剪辑", "Adobe"]
+slug: "adobe-premiere-ai"
 ---
 
 # Adobe Premiere Pro AI

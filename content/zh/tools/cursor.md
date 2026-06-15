@@ -1,10 +1,11 @@
----
+﻿---
 title: "Cursor — AI原生代码编辑器"
 date: 2026-06-15
 draft: false
 description: "Cursor是专为AI时代设计的代码编辑器，基于VS Code。Composer、AI对话、Tab补全全覆盖。免费版可用，Pro $20/月。"
 categories: ["ai-coding"]
 tags: ["AI编程", "代码编辑器", "免费"]
+slug: "cursor"
 ---
 
 # Cursor

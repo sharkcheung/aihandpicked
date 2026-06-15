@@ -1,10 +1,11 @@
----
+﻿---
 title: "Adobe Firefly — Adobe创意套件AI引擎"
 date: 2026-06-15
 draft: false
 description: "Adobe Firefly是Adobe创意软件的AI引擎，深度集成Photoshop、Illustrator。生成填充、文本效果等功能。"
 categories: ["ai-image"]
 tags: ["AI图像", "Adobe", "设计"]
+slug: "adobe-firefly"
 ---
 
 # Adobe Firefly

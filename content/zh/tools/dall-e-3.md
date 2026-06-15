@@ -1,10 +1,11 @@
----
+﻿---
 title: "DALL·E 3 — OpenAI出品的AI图像生成"
 date: 2026-06-15
 draft: false
 description: "DALL·E 3是OpenAI开发的AI图像生成器，文字渲染能力出色，ChatGPT Plus会员即可使用。$20/月。"
 categories: ["ai-image"]
 tags: ["AI图像", "OpenAI", "文字渲染"]
+slug: "dall-e-3"
 ---
 
 # DALL·E 3

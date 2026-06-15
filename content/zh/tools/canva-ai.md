@@ -1,10 +1,11 @@
----
+﻿---
 title: "Canva AI — 设计平台的AI功能"
 date: 2026-06-15
 draft: false
 description: "Canva AI是Canva设计平台的AI功能集合，包括文本生成图像、AI写作助手、智能抠图等。包含在Canva订阅中。"
 categories: ["ai-image"]
 tags: ["AI图像", "设计", "模板"]
+slug: "canva-ai"
 ---
 
 # Canva AI

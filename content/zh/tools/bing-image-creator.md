@@ -1,10 +1,11 @@
----
+﻿---
 title: "Bing Image Creator — 免费AI图像生成"
 date: 2026-06-15
 draft: false
 description: "Bing Image Creator基于DALL·E 3，完全免费使用。微软账号即可登录，每天有额度限制。"
 categories: ["ai-image"]
 tags: ["AI图像", "免费", "DALL·E"]
+slug: "bing-image-creator"
 ---
 
 # Bing Image Creator

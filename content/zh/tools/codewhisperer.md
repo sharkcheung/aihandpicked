@@ -1,10 +1,11 @@
----
+﻿---
 title: "Amazon CodeWhisperer — AWS免费AI编程助手"
 date: 2026-06-15
 draft: false
 description: "CodeWhisperer是Amazon AWS出品的AI编程助手，完全免费。支持多语言，IDEA、VS Code等IDE集成。AWS用户首选。"
 categories: ["ai-coding"]
 tags: ["AI编程", "免费", "AWS"]
+slug: "codewhisperer"
 ---
 
 # Amazon CodeWhisperer

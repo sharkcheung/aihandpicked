@@ -1,10 +1,11 @@
----
+﻿---
 title: "Claude — AI写作和长文本分析最佳助手"
 date: 2026-06-15
 draft: false
 description: "Claude是Anthropic开发的AI助手，以长文本处理能力和安全性著称。200K上下文窗口，Claude 3.5 Sonnet模型。免费使用。"
 categories: ["ai-writing"]
 tags: ["AI写作", "长文本", "安全", "免费"]
+slug: "claude"
 ---
 
 # Claude

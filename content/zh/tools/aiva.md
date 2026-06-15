@@ -1,10 +1,11 @@
----
+﻿---
 title: "AIVA — AI音乐创作引擎"
 date: 2026-06-15
 draft: false
 description: "AIVA是专注于创作背景音乐的AI引擎，适合游戏、电影、广告配乐。版权清晰，商用无忧。免费版可用。"
 categories: ["audio"]
 tags: ["AI音乐", "背景音乐", "商用"]
+slug: "aiva"
 ---
 
 # AIVA

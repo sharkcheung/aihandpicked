@@ -1,10 +1,11 @@
----
+﻿---
 title: "Claude for Teams — 企业级AI助手"
 date: 2026-06-15
 draft: false
 description: "Claude for Teams是Anthropic推出的企业版Claude，提供团队管理、权限控制、使用分析等企业功能。$30/人/月。"
 categories: ["ai-writing"]
 tags: ["AI写作", "企业", "团队"]
+slug: "claude-team"
 ---
 
 # Claude for Teams
