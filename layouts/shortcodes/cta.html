@@ -1,0 +1,9 @@
+{{- $slug := .Get 0 -}}
+{{- $label := .Get 1 | default "Try it →" -}}
+{{- $aff := index .Site.Data.affiliates $slug -}}
+{{- $url := "" -}}
+{{- if $aff -}}{{- $url = $aff.url -}}{{- end -}}
+{{- if not $url -}}
+  {{- $url = "#" -}}
+{{- end -}}
+<a href="{{ $url }}" class="tool-cta" target="_blank" rel="noopener sponsored">{{ $label }}</a>

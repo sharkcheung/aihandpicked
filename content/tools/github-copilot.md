@@ -70,4 +70,4 @@ Software developers, engineers, and students who want AI assistance while writin
 
 GitHub Copilot is the safe, reliable choice for professional development. The $10/mo Individual plan pays for itself in time saved. If you want a free option, Codeium is solid. If you want the most powerful AI-first IDE, try Cursor.
 
-[Try GitHub Copilot →](https://github.com/features/copilot)
+{{< cta "github-copilot" "Try GitHub Copilot →" >}}

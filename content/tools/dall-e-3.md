@@ -69,4 +69,4 @@ Casual creators, marketers who need quick visuals with text, social media manage
 
 DALL·E 3 is the best choice if you need text in your images or want the easiest possible experience. For artistic control, look at Midjourney or Stable Diffusion.
 
-[Try DALL·E 3 →](https://chat.openai.com)
+{{< cta "dall-e-3" "Try DALL·E 3 →" >}}

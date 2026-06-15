@@ -68,4 +68,4 @@ Solo entrepreneurs, small business owners, and anyone who needs quick marketing 
 
 Copy.ai is the best starting point if you want to try AI copywriting without paying. The free tier is genuinely useful, and the paid plans are affordable for growing teams.
 
-[Try Copy.ai →](https://www.copy.ai)
+{{< cta "copy-ai" "Try Copy.ai →" >}}

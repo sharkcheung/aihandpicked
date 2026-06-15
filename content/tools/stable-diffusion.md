@@ -72,4 +72,4 @@ Artists, developers, hobbyists who want full control, anyone concerned about dat
 
 Stable Diffusion is the king of flexibility. If you're willing to learn, it offers capabilities that paid tools can't match. The free price tag makes it unbeatable for power users.
 
-[Try Stable Diffusion →](https://stability.ai/stable-diffusion)
+{{< cta "stable-diffusion" "Try Stable Diffusion →" >}}

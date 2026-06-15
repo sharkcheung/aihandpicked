@@ -71,4 +71,4 @@ Content creators, podcasters, video producers, game developers, audiobook creato
 
 ElevenLabs sets the standard for AI voices. If you need text-to-speech or voice cloning, this is the tool to use. The quality difference vs competitors is noticeable.
 
-[Try ElevenLabs →](https://elevenlabs.io)
+{{< cta "elevenlabs" "Try ElevenLabs →" >}}

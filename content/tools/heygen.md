@@ -69,4 +69,4 @@ Businesses creating training content, marketing teams needing multilingual video
 
 HeyGen is the best choice if you need talking head or avatar videos, especially with its unique video translation feature. The pricing is steep but the quality justifies it for business use.
 
-[Try HeyGen →](https://www.heygen.com)
+{{< cta "heygen" "Try HeyGen →" >}}

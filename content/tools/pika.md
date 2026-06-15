@@ -69,4 +69,4 @@ Social media creators, beginners exploring AI video, marketers needing quick ani
 
 Pika is the best starting point for AI video. The free tier lets you experiment freely, and the results are good enough for social media content.
 
-[Try Pika →](https://pika.art)
+{{< cta "pika" "Try Pika →" >}}

@@ -70,4 +70,4 @@ Students, beginners, prototypers, hackathon participants, and anyone who needs t
 
 Replit is incredible for getting ideas off the ground fast. The AI Agent feature is genuinely impressive for turning descriptions into working apps. Not a replacement for professional IDEs but unbeatable for speed.
 
-[Try Replit →](https://replit.com)
+{{< cta "replit" "Try Replit →" >}}

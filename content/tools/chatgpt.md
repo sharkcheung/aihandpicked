@@ -70,4 +70,4 @@ Writers, marketers, developers, students, and anyone needing a general-purpose A
 
 ChatGPT remains the gold standard for AI assistants. The free tier is generous, and Plus ($20/mo) unlocks GPT-4o for most users. Best for anyone who wants one AI tool for everything.
 
-[Try ChatGPT →](https://chat.openai.com)
+{{< cta "chatgpt" "Try ChatGPT →" >}}

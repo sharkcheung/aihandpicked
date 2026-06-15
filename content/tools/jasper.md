@@ -68,4 +68,4 @@ Marketing teams, agencies, e-commerce brands, and anyone who needs to produce la
 
 Jasper is the premium choice for marketing teams that need structured, on-brand content at scale. If you're a solo creator, ChatGPT or Claude might be more cost-effective.
 
-[Try Jasper →](https://www.jasper.ai)
+{{< cta "jasper" "Try Jasper →" >}}

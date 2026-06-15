@@ -69,4 +69,4 @@ Content creators, filmmakers, marketing teams, social media managers, and anyone
 
 Runway is the gold standard for AI video generation. If you need to create video from scratch with AI, this is the best tool available.
 
-[Try Runway →](https://runwayml.com)
+{{< cta "runway" "Try Runway →" >}}

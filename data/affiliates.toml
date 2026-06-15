@@ -1,0 +1,104 @@
+# Affiliate Links Configuration
+# Update affiliate IDs here — all tool pages auto-update on rebuild.
+# Format: slug = { url = "affiliate-link", type = "referral|direct", program = "name" }
+# Leave url as direct link if no affiliate program yet.
+
+[chatgpt]
+  url = "https://chat.openai.com"
+  type = "direct"
+  program = ""
+
+[claude]
+  url = "https://claude.ai"
+  type = "direct"
+  program = ""
+
+[jasper]
+  url = "https://www.jasper.ai"
+  type = "direct"
+  program = "Jasper Affiliate (Impact)"
+
+[copy-ai]
+  url = "https://www.copy.ai"
+  type = "direct"
+  program = "Copy.ai Affiliate"
+
+[notion-ai]
+  url = "https://www.notion.so/product/ai"
+  type = "direct"
+  program = "Notion Referral"
+
+[dalle-3]
+  url = "https://openai.com/dall-e-3"
+  type = "direct"
+  program = ""
+
+[midjourney]
+  url = "https://www.midjourney.com"
+  type = "direct"
+  program = ""
+
+[stable-diffusion]
+  url = "https://stability.ai"
+  type = "direct"
+  program = ""
+
+[leonardo]
+  url = "https://leonardo.ai"
+  type = "direct"
+  program = ""
+
+[ideogram]
+  url = "https://ideogram.ai"
+  type = "direct"
+  program = ""
+
+[github-copilot]
+  url = "https://github.com/features/copilot"
+  type = "direct"
+  program = ""
+
+[cursor]
+  url = "https://www.cursor.com"
+  type = "direct"
+  program = "Cursor Referral"
+
+[replit]
+  url = "https://replit.com"
+  type = "direct"
+  program = "Replit Referral"
+
+[codeium]
+  url = "https://codeium.com"
+  type = "direct"
+  program = ""
+
+[runway]
+  url = "https://runwayml.com"
+  type = "direct"
+  program = "Runway Affiliate"
+
+[pika]
+  url = "https://pika.art"
+  type = "direct"
+  program = ""
+
+[heygen]
+  url = "https://heygen.com"
+  type = "direct"
+  program = "HeyGen Referral"
+
+[elevenlabs]
+  url = "https://elevenlabs.io"
+  type = "direct"
+  program = "ElevenLabs Affiliate"
+
+[murf]
+  url = "https://murf.ai"
+  type = "direct"
+  program = "Murf Affiliate"
+
+[descript]
+  url = "https://www.descript.com"
+  type = "direct"
+  program = "Descript Affiliate"

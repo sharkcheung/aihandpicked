@@ -68,4 +68,4 @@ Students, hobbyists, open-source contributors, and anyone who wants AI coding as
 
 The best free option available. If you don't want to pay for Copilot or Cursor, Codeium gives you 80% of the value at 0% of the price.
 
-[Try Codeium →](https://codeium.com)
+{{< cta "codeium" "Try Codeium →" >}}

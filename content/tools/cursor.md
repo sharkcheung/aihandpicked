@@ -69,4 +69,4 @@ Professional developers who spend most of their day writing code. If you're alre
 
 Cursor is the future of coding. The combination of deep codebase understanding and multi-file AI editing makes it significantly more powerful than Copilot as a plugin. Highly recommended for any serious developer.
 
-[Try Cursor →](https://cursor.sh)
+{{< cta "cursor" "Try Cursor →" >}}

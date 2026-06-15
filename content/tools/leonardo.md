@@ -69,4 +69,4 @@ Game developers, character designers, concept artists, indie studios, and anyone
 
 If you're into games or need consistent character art, Leonardo.ai is unmatched. For general artistic image generation, Midjourney still leads.
 
-[Try Leonardo.ai →](https://leonardo.ai)
+{{< cta "leonardo" "Try Leonardo.ai →" >}}

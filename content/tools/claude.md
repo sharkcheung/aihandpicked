@@ -69,4 +69,4 @@ Writers, researchers, analysts, and anyone who needs detailed, well-reasoned lon
 
 Claude is the writer's choice. If your primary use case is creating high-quality written content or doing deep analysis, Claude edges out ChatGPT in nuance and thoughtfulness.
 
-[Try Claude →](https://claude.ai)
+{{< cta "claude" "Try Claude →" >}}

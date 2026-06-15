@@ -68,4 +68,4 @@ Notion power users, teams that live in Notion, product managers, and anyone who 
 
 If you live in Notion, Notion AI is a no-brainer. The ability to query your databases and generate content within your existing workspace is incredibly powerful.
 
-[Try Notion AI →](https://www.notion.so/product/ai)
+{{< cta "notion-ai" "Try Notion AI →" >}}

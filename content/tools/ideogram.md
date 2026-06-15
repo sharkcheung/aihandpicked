@@ -70,4 +70,4 @@ Designers needing quick logos or graphics with text, social media managers creat
 
 Ideogram is the specialist's choice. When you need text in images — especially logos and posters — it's fantastic. Not a replacement for Midjourney as a general art tool.
 
-[Try Ideogram →](https://ideogram.ai)
+{{< cta "ideogram" "Try Ideogram →" >}}

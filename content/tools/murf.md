@@ -71,4 +71,4 @@ Corporate trainers, e-learning developers, presentation creators, marketing team
 
 Murf.ai is the best choice if you need a full studio experience for creating voiceover content synced with presentations or videos. For pure voice quality, ElevenLabs still leads.
 
-[Try Murf.ai →](https://murf.ai)
+{{< cta "murf" "Try Murf.ai →" >}}

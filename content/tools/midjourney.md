@@ -70,4 +70,4 @@ Artists, designers, marketing teams, and content creators who need high-quality 
 
 Midjourney wins on artistic quality. If you need stunning visuals for creative projects, it's worth the subscription. Start with the $10 Basic plan to test it out.
 
-[Try Midjourney →](https://www.midjourney.com)
+{{< cta "midjourney" "Try Midjourney →" >}}

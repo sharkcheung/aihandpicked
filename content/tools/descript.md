@@ -70,4 +70,4 @@ Podcasters, YouTubers, interviewers, course creators, and anyone who works with 
 
 Descript is a game-changer for anyone working with audio or video that contains speech. The ability to edit by editing text is not just convenient — it fundamentally changes how you work.
 
-[Try Descript →](https://www.descript.com)
+{{< cta "descript" "Try Descript →" >}}
