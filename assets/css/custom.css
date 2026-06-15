@@ -195,3 +195,150 @@
 .breadcrumbs {
   font-size: 0.88rem;
 }
+
+/* Chinese Language Specific Styles */
+[lang="zh"] body {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+}
+
+.zh-content h1, .zh-content h2, .zh-content h3 {
+  line-height: 1.8;
+}
+
+.zh-content {
+  line-height: 1.9;
+}
+
+/* Category cards - Chinese version */
+.category-card-zh {
+  display: flex;
+  flex-direction: column;
+  background: var(--entry-card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  transition: all 0.2s;
+}
+
+.category-card-zh:hover {
+  border-color: #7B68EE;
+  transform: translateY(-2px);
+}
+
+/* Chinese tool list style */
+.tool-list-zh {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.tool-item-zh {
+  background: var(--entry-card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.tool-item-zh:hover {
+  border-color: #7B68EE;
+}
+
+.tool-item-zh .tool-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.tool-item-zh .tool-desc {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.tool-item-zh .tool-price {
+  color: #7B68EE;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+/* Price comparison table - Chinese */
+.price-table-zh {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.price-table-zh th {
+  background: #7B68EE;
+  color: white;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.price-table-zh td {
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.price-table-zh tr:hover {
+  background: var(--hover);
+}
+
+/* Language switcher button */
+.lang-switch-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.875rem;
+  color: var(--text);
+  background: var(--entry-card-bg);
+  transition: all 0.2s;
+}
+
+.lang-switch-nav:hover {
+  background: var(--hover);
+  border-color: #7B68EE;
+}
+
+/* Chinese homepage hero */
+.hero-zh {
+  text-align: center;
+  padding: 3rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-zh h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #7B68EE, #00D4AA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-zh p {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-zh h1 {
+    font-size: 1.8rem;
+  }
+  .hero-zh p {
+    font-size: 1rem;
+  }
+  .tool-list-zh {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,197 @@
+- id: home
+  translation: 首页
+
+- id: tools
+  translation: AI工具
+
+- id: categories
+  translation: 分类
+
+- id: tags
+  translation: 标签
+
+- id: about
+  translation: 关于
+
+- id: search
+  translation: 搜索
+
+- id: search_placeholder
+  translation: 搜索AI工具...
+
+- id: no_results
+  translation: 未找到相关工具
+
+- id: loading
+  translation: 加载中...
+
+- id: read_more
+  translation: "阅读全文"
+
+- id: view_all
+  translation: 查看全部
+
+- id: featured_tools
+  translation: 精选工具
+
+- id: latest_tools
+  translation: 最新工具
+
+- id: popular_tools
+  translation: 热门工具
+
+- id: all_categories
+  translation: 全部分类
+
+- id: pricing
+  translation: 价格
+
+- id: free
+  translation: 免费
+
+- id: free_tier
+  translation: 免费版
+
+- id: paid
+  translation: 付费
+
+- id: pros
+  translation: 优点
+
+- id: cons
+  translation: 缺点
+
+- id: rating
+  translation: 评分
+
+- id: reviews
+  translation: 评论
+
+- id: visit_website
+  translation: 访问官网
+
+- id: affiliate_disclaimer
+  translation: 联盟链接说明
+
+- id: affiliate_notice
+  translation: 我们可能通过合作伙伴获得佣金，但不会影响评价的客观性。
+
+- id: updated
+  translation: 更新于
+
+- id: reading_time
+  translation: 阅读时间
+
+- id: minutes
+  translation: 分钟
+
+- id: ai_writing
+  translation: AI写作
+
+- id: ai_image
+  translation: AI图像
+
+- id: ai_video
+  translation: AI视频
+
+- id: ai_audio
+  translation: AI音频
+
+- id: ai_coding
+  translation: AI编程
+
+- id: comparison
+  translation: 对比
+
+- id: best_for
+  translation: 适用场景
+
+- id: alternatives
+  translation: 替代方案
+
+- id: getting_started
+  translation: 入门指南
+
+- id: features
+  translation: 功能特点
+
+- id: use_cases
+  translation: 使用场景
+
+- id: who_is_it_for
+  translation: 适合人群
+
+- id: conclusion
+  translation: 总结
+
+- id: table_of_contents
+  translation: 目录
+
+- id: back_to_top
+  translation: 返回顶部
+
+- id: copyright
+  translation: 版权所有
+
+- id: privacy
+  translation: 隐私政策
+
+- id: terms
+  translation: 服务条款
+
+- id: sitemap
+  translation: 网站地图
+
+- id: rss
+  translation: RSS订阅
+
+- id: language
+  translation: 语言
+
+- id: chinese
+  translation: 中文
+
+- id: english
+  translation: English
+
+- id: switch_to_chinese
+  translation: 切换到中文
+
+- id: switch_to_english
+  translation: Switch to English
+
+- id: browse_by_category
+  translation: 按分类浏览
+
+- id: top_rated
+  translation: 评分最高
+
+- id: new_arrivals
+  translation: 新增工具
+
+- id: editor_choice
+  translation: 编辑推荐
+
+- id: also_like
+  translation: 你可能还喜欢
+
+- id: related_tools
+  translation: 相关工具
+
+- id: share
+  translation: 分享
+
+- id: copy_link
+  translation: 复制链接
+
+- id: link_copied
+  translation: 链接已复制
+
+- id: cta_button
+  translation: 免费试用
+
+- id: limited_time
+  translation: 限时优惠
+
+- id: exclusive_discount
+  translation: 专属折扣

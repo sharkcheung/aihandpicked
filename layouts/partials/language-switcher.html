@@ -1,0 +1,10 @@
+{{- /* Language Switcher Partial */ -}}
+{{- $currentLang := .Language.Lang -}}
+{{- $translations := .Translations -}}
+<span class="lang-switcher">
+  {{- if eq $currentLang "en" -}}
+    <a href="/zh/" class="lang-link" title="切换到中文">🇨🇳 中文</a>
+  {{- else if eq $currentLang "zh" -}}
+    <a href="/" class="lang-link" title="Switch to English">🇺🇸 English</a>
+  {{- end -}}
+</span>

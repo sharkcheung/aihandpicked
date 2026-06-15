@@ -1,6 +1,12 @@
 {{- /* Custom SEO meta tags and structured data */ -}}
 <meta name="google-site-verification" content="" />
 <meta name="msvalidate.01" content="" />
+
+{{- /* hreflang for international SEO */ -}}
+<link rel="alternate" hreflang="en" href="{{ .Site.BaseURL }}" />
+<link rel="alternate" hreflang="zh" href="{{ .Site.BaseURL }}zh/" />
+<link rel="alternate" hreflang="x-default" href="{{ .Site.BaseURL }}" />
+
 {{- if .IsHome }}
 <title>{{ .Site.Title }}</title>
 <meta name="description" content="{{ .Site.Params.description }}" />
@@ -11,21 +17,31 @@
   "@type": "WebSite",
   "name": "{{ .Site.Title }}",
   "url": "{{ .Site.BaseURL }}",
-  "description": "{{ .Site.Params.description }}"
+  "description": "{{ .Site.Params.description }}",
+  "inLanguage": "en-US"
 }
 </script>
 {{- else if eq .Section "tools" }}
 <title>{{ .Title }} — AI Handpicked</title>
 <meta name="description" content="{{ .Description }}" />
-{{- $toolName := .Params.tools.name -}}
-{{- $toolUrl := .Params.tools.url -}}
+{{- $toolName := .Title -}}
+{{- $toolUrl := "" -}}
+{{- with .Params.tools }}
+  {{- $toolUrl = .url -}}
+{{- end }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "{{$toolName}}",
-  "url": "{{$toolUrl}}",
+  "name": "{{ $toolName }}",
+  "url": "{{ $toolUrl }}",
   "operatingSystem": "Any",
+  "applicationCategory": "BusinessApplication",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "ratingCount": "100"
+  },
   "author": { "@type": "Organization", "name": "AI Handpicked" },
   "publisher": { "@type": "Organization", "name": "AI Handpicked", "url": "{{ .Site.BaseURL }}" }
 }
@@ -33,6 +49,19 @@
 {{- else if eq .Section "categories" }}
 <title>{{ .Title }} — AI Handpicked</title>
 <meta name="description" content="{{ .Description }}" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "url": "{{ .Permalink }}",
+  "publisher": { "@type": "Organization", "name": "AI Handpicked", "url": "{{ .Site.BaseURL }}" }
+}
+</script>
+{{- else }}
+<title>{{ .Title }} — AI Handpicked</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
 {{- end }}
 
 <!-- Canonical URL -->

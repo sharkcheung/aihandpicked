@@ -1,12 +1,30 @@
 baseURL = "https://aihandpicked.xyz"
 languageCode = "en"
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 title = "AI Handpicked — Best AI Tools Reviewed & Compared (2026)"
 theme = "PaperMod"
 enableRobotsTXT = true
 enableEmoji = true
-disableLanguages = []
 paginate = 20
+
+# Languages configuration for bilingual support
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-US"
+    weight = 1
+    title = "AI Handpicked"
+    params.description = "Your curated guide to the best AI tools in 2026. Honest reviews, comparisons, and pricing for ChatGPT, Midjourney, Cursor, and 20+ top AI tools."
+
+  [languages.zh]
+    languageName = "中文"
+    languageCode = "zh-CN"
+    weight = 2
+    title = "AI Handpicked — 精选AI工具导航"
+    contentDir = "content/zh"
+    params.description = "2026年最优秀的AI工具精选导航。ChatGPT、Midjourney、Claude、Cursor等热门AI工具的真实评测、定价对比。"
+    params.keywords = ["AI工具", "人工智能", "ChatGPT", "AI写作", "AI图像生成", "AI编程", "AI视频", "AI评测"]
 
 [params]
   env = "production"
@@ -20,18 +38,22 @@ paginate = 20
   ShowPostNavLinks = true
   mainSections = ["tools", "categories"]
   copyright = "© 2026 AI Handpicked. All rights reserved."
-  
+
   # SEO
   defaultTheme = "auto"
   ShowShareButtons = false
   ShowToc = true
   TocOpen = false
-  
+
   # Open Graph / Social
   images = ["og-image.png"]
-  
+
   # Home Info mode
   homeInfoParams = { Title = "🤖 AI Handpicked", Content = "Your curated guide to the **best AI tools** — honestly reviewed, clearly compared, always up to date." }
+
+  # Language Switcher
+  ShowLangMenu = true
+  langMenuLabel = "🌐 语言 / Language"
 
 # For SEO - ensure proper URLs
 [permalinks]
@@ -40,7 +62,7 @@ paginate = 20
 
 [services]
   [services.googleAnalytics]
-    ID = "" # TODO: Add GA4 ID later
+    ID = ""
 
 [markup.highlight]
   noClasses = false

@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /tags/
+Disallow: /page/
+
+# Sitemap
+Sitemap: https://aihandpicked.xyz/sitemap.xml
+
+# Chinese version
+User-agent: *
+Allow: /zh/

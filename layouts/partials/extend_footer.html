@@ -1,4 +1,54 @@
-<!-- Affiliate Disclosure -->
+{{- /* Bilingual Affiliate Disclosure */ -}}
+{{- $lang := .Language.Lang -}}
+{{- if eq $lang "zh" -}}
+<div class="affiliate-disclosure">
+  <p><em>免责声明：本文部分链接为联盟链接。如果您通过这些链接购买，我们可能会获得佣金，但不会增加您的任何费用。我们只推荐我们真正信任的工具。</em></p>
+</div>
+<footer class="site-footer zh-footer">
+  <div class="footer-content">
+    <p>© 2026 <a href="{{ .Site.BaseURL }}">AI Handpicked</a> — 精选AI工具导航</p>
+    <p>
+      <a href="{{ .Site.BaseURL }}">首页</a> · 
+      <a href="{{ .Site.BaseURL }}tools/">工具列表</a> · 
+      <a href="{{ .Site.BaseURL }}categories/">分类</a> · 
+      <a href="/">English</a>
+    </p>
+  </div>
+</footer>
+{{- else -}}
 <div class="affiliate-disclosure">
   <p><em>Disclosure: Some links on this site are affiliate links. If you purchase through them, we may earn a commission at no extra cost to you. We only recommend tools we genuinely believe in.</em></p>
 </div>
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>© 2026 <a href="{{ .Site.BaseURL }}">AI Handpicked</a> — Your curated guide to the best AI tools</p>
+    <p>
+      <a href="{{ .Site.BaseURL }}">Home</a> · 
+      <a href="{{ .Site.BaseURL }}tools/">All Tools</a> · 
+      <a href="{{ .Site.BaseURL }}categories/">Categories</a> · 
+      <a href="/zh/">中文</a>
+    </p>
+  </div>
+</footer>
+{{- end -}}
+
+<style>
+.site-footer {
+  padding: 1.5rem 1rem;
+  text-align: center;
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+}
+.footer-content p {
+  margin: 0.25rem 0;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+.footer-content a {
+  color: #7B68EE;
+  text-decoration: none;
+}
+.footer-content a:hover {
+  text-decoration: underline;
+}
+</style>
