@@ -1,0 +1,176 @@
+/* AI Handpicked Custom Styles */
+
+/* Tool Info Box */
+.tool-info-box {
+  background: linear-gradient(135deg, #f8f7ff 0%, #f0eaff 100%);
+  border: 1px solid #ddd6ff;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin: 24px auto;
+  max-width: 700px;
+}
+
+.tool-info-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tool-info-box td {
+  padding: 8px 12px;
+  font-size: 0.95rem;
+}
+
+.tool-info-box td:first-child {
+  width: 140px;
+  color: #5a4fcf;
+}
+
+/* Tool Logo */
+.tool-logo {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.tool-logo img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  border-radius: 12px;
+  background: white;
+  padding: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* CTA Button */
+.tool-cta {
+  display: inline-block;
+  background: linear-gradient(135deg, #7B68EE 0%, #9370DB 100%);
+  color: white !important;
+  padding: 10px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 16px 0;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tool-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(123,104,238,0.35);
+}
+
+/* Lead Description */
+.post-description.lead {
+  font-size: 1.15rem;
+  color: #555;
+  line-height: 1.7;
+  max-width: 750px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+/* Related Tools Section */
+.related-tools {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 2px solid #eee;
+}
+
+.related-tools h2 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.related-tools ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.related-tools li a {
+  display: block;
+  padding: 10px 16px;
+  background: #f8f7ff;
+  border-radius: 8px;
+  color: #5a4fcf;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.related-tools li a:hover {
+  background: #ede7ff;
+}
+
+/* Post Header Enhancements */
+.post-header .post-title {
+  text-align: center;
+  font-size: 2rem !important;
+}
+
+.post-header .post-meta {
+  justify-content: center;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.post-meta-sep {
+  margin: 0 8px;
+}
+
+/* Pricing Table Enhancement */
+.post-content table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 650px;
+  margin: 16px auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.post-content table th {
+  background: linear-gradient(135deg, #7B68EE 0%, #9370DB 100%);
+  color: white;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.post-content table td {
+  padding: 10px 16px;
+  border-bottom: 1px solid #f0eaff;
+}
+
+.post-content table tr:last-child td {
+  border-bottom: none;
+}
+
+.post-content table tr:nth-child(even) td {
+  background: #faf8ff;
+}
+
+/* Pros/Cons styling */
+.post-content ul li:has-text("✅") {
+  list-style: none;
+}
+
+/* Homepage Category Cards */
+.main-profile .post-entry {
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.main-profile .post-entry:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* Breadcrumb enhancement */
+.breadcrumbs {
+  font-size: 0.88rem;
+}

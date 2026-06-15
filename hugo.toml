@@ -1,21 +1,46 @@
 baseURL = "https://aihandpicked.xyz"
-languageCode = "en-us"
-title = "AI Handpicked"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "AI Handpicked — Best AI Tools Reviewed & Compared (2026)"
 theme = "PaperMod"
 enableRobotsTXT = true
 enableEmoji = true
 disableLanguages = []
+paginate = 20
 
 [params]
   env = "production"
-  description = "Discover the best AI tools for writing, coding, design, video, and more."
+  description = "AI Handpicked — Your curated guide to the best AI tools in 2026. Honest reviews, comparisons, and pricing for ChatGPT, Midjourney, Cursor, and 20+ top AI tools."
   author = "AI Handpicked"
-  label = { text = "AI Handpicked" }
+  keywords = ["best AI tools", "AI tools review", "ChatGPT alternative", "Midjourney review", "AI writing tools", "AI image generator", "AI coding assistant", "AI video generator", "AI voice generator"]
+  label = { text = "🤖 AI Handpicked" }
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowReadingTime = true
+  ShowPostNavLinks = true
   mainSections = ["tools", "categories"]
-  copyright = "© 2026 AI Handpicked"
+  copyright = "© 2026 AI Handpicked. All rights reserved."
+  
+  # SEO
+  defaultTheme = "auto"
+  ShowShareButtons = false
+  ShowToc = true
+  TocOpen = false
+  
+  # Open Graph / Social
+  images = ["og-image.png"]
+  
+  # Home Info mode
+  homeInfoParams = { Title = "🤖 AI Handpicked", Content = "Your curated guide to the **best AI tools** — honestly reviewed, clearly compared, always up to date." }
+
+# For SEO - ensure proper URLs
+[permalinks]
+  tools = "/tools/:slug/"
+  categories = "/categories/:slug/"
+
+[services]
+  [services.googleAnalytics]
+    ID = "" # TODO: Add GA4 ID later
 
 [markup.highlight]
   noClasses = false
@@ -28,3 +53,16 @@ disableLanguages = []
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+# RSS feed config
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+
+[outputFormats.RSS]
+  mediatype = "application/rss+xml"
+  baseName = "index"
+
+[security]
+  [security.funcs]
+    getenv = ["^HUGO_", "^GIT_"]
