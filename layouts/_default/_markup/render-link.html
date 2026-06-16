@@ -2,8 +2,8 @@
 {{- $dest := .Destination -}}
 {{- if hasPrefix $dest "/" -}}
   {{- $prefix := "" -}}
-  {{- if ne .Language.Lang "en" -}}
-    {{- $prefix = printf "/%s" .Language.Lang -}}
+  {{- if ne (site.Language.Lang) "en" -}}
+    {{- $prefix = printf "/%s" (site.Language.Lang) -}}
   {{- end -}}
   {{- $dest = printf "%s%s" $prefix $dest -}}
 {{- end -}}
