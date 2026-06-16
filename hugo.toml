@@ -1,7 +1,7 @@
 baseURL = "https://aihandpicked.xyz"
 languageCode = "en"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 title = "AI Handpicked — Best AI Tools Reviewed & Compared (2026)"
 theme = "PaperMod"
 enableRobotsTXT = true
