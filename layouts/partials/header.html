@@ -16,21 +16,21 @@
             <!-- Language Switcher -->
             <span class="lang-switcher">
                 {{- if eq .Language.Lang "en" -}}
-                <a href="/zh/" class="lang-link" title="切换到中文">🇨🇳 中文</a>
+                <a href="{{ "zh/" | relURL }}" class="lang-link" title="切换到中文">🇨🇳 中文</a>
                 {{- else if eq .Language.Lang "zh" -}}
-                <a href="/" class="lang-link" title="Switch to English">🇺🇸 English</a>
+                <a href="{{ "en/" | relURL }}" class="lang-link" title="Switch to English">🇺🇸 English</a>
                 {{- end -}}
             </span>
             
             <!-- Navigation Menu -->
             <ul class="menu-list">
                 <li class="menu-item">
-                    <a href="{{ .Permalink }}tools/" class="menu-link">
+                    <a href="{{ "tools/" | relLangURL }}" class="menu-link">
                         {{- if eq .Language.Lang "zh" }}工具{{ else }}Tools{{ end -}}
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="{{ .Permalink }}categories/" class="menu-link">
+                    <a href="{{ "categories/" | relLangURL }}" class="menu-link">
                         {{- if eq .Language.Lang "zh" }}分类{{ else }}Categories{{ end -}}
                     </a>
                 </li>
