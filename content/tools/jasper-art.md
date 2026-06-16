@@ -1,62 +1,62 @@
 ---
-title: "Jasper — AI Writing for Marketing Teams"
-description: "Jasper is an AI writing assistant designed for marketing teams, generating blog posts, ads, emails, and social content at scale."
-categories: ["writing"]
-tags: ["Jasper", "AI Writing", "Marketing", "Content Creation"]
+title: "Jasper Art — AI Image Generation for Marketers"
+description: "Jasper Art is an AI image generator designed for marketers and content creators, integrated with Jasper's writing platform."
+categories: ["image", "marketing"]
+tags: ["Jasper Art", "AI", "image generation", "marketing", "DALL-E"]
 type: tool
 tools:
-  name: "Jasper"
-  url: "https://jasper.ai"
-  developer: "Jasper AI"
-  founded: "2021"
-  pricing: "Creator $49/mo; Pro $69/mo"
-  category: ["writing", "marketing"]
-  logo: "https://jasper.ai/logo.png"
+  name: "Jasper Art"
+  url: "https://www.jasper.ai/art"
+  developer: "Jasper"
+  founded: "2022"
+  pricing: "Included in Jasper plans starting $49/mo"
+  category: ["image", "marketing"]
+  logo: ""
 
 ---
 
-# Jasper Review
+# Jasper Art Review
 
-**Jasper** (formerly Jarvis) is an AI writing assistant built specifically for marketers. It generates blog posts, ad copy, emails, and social media content with brand voice consistency.
+**Jasper Art** is the AI image generation feature within Jasper's content platform. It's designed for marketers who need custom visuals alongside their written content, powered by DALL-E 3.
 
 ## Key Features
 
-- **Brand Voice** — Train AI on your brand tone
-- **50+ Templates** — Blog posts, ads, emails, and more
-- **Team Collaboration** — Work together on projects
-- **SEO Mode** — Optimize content for search engines
-- **Art Integration** — Generate images alongside text
-- **API Access** — Automate content workflows
+- **Text-to-image** — Generate marketing-ready visuals
+- **Brand consistency** — Maintain style across campaigns
+- **Multiple formats** — Square, landscape, portrait outputs
+- **Commercial license** — Use images for business
+- **Integrated workflow** — Create images within Jasper
+- **Style presets** — Marketing-optimized aesthetics
 
 ## Pricing
 
 | Plan | Price | Key Features |
 |------|-------|--------------|
-| Creator | $49/mo | 1 brand voice, 1 user |
-| Pro | $69/mo | 3 brand voices, 5 users |
-| Business | Custom | Unlimited everything |
+| Creator | $49/mo | Jasper Art included |
+| Pro | $69/mo | More AI generations |
+| Business | Custom | Unlimited, API access |
 
 ## Pros
 
-✅ Best for marketing teams  
-✅ Great template library  
-✅ Brand voice training works well  
-✅ Regular updates and improvements  
+✅ Integrated with Jasper writing workflow  
+✅ Commercial-use friendly  
+✅ Good for marketing visuals  
+✅ No separate subscription needed  
 
 ## Cons
 
-❌ Expensive compared to alternatives  
-❌ Learning curve for best results  
-❌ Some templates feel generic  
+❌ Requires Jasper subscription  
+❌ Less powerful than standalone tools  
+❌ Limited style control  
 
 ## Who It's Best For
 
-Marketing teams, content agencies, and businesses that need to produce large volumes of branded content consistently.
+Jasper users, marketers, content teams who need images alongside written content.
 
 ## Verdict
 
-**Rating: 4.3/5**
+**Rating: 4.0/5**
 
-Jasper remains the top choice for marketing teams needing AI content at scale. The brand voice feature sets it apart.
+Jasper Art is valuable if you're already using Jasper. Standalone, Midjourney or DALL-E offer more control.
 
-{{< cta "jasper-art" "Try Jasper →" >}}
+{{< cta "jasper-art" "Try Jasper Art →" >}}
