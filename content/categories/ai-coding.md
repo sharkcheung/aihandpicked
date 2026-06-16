@@ -11,10 +11,10 @@ AI coding tools help developers write code faster, debug issues, and learn new f
 
 ## Top AI Coding Tools
 
-- **[GitHub Copilot](/tools/github-copilot/)** — Industry standard, deeply integrated in VS Code
-- **[Cursor](/tools/cursor/)** — AI-first IDE built on VS Code
-- **[Replit](/tools/replit/)** — Online IDE with built-in AI agent
-- **[Codeium](/tools/codeium/)** — Free alternative with solid features
+- **[GitHub Copilot]({{< relref "tools/github-copilot" >}})** — Industry standard, deeply integrated in VS Code
+- **[Cursor]({{< relref "tools/cursor" >}})** — AI-first IDE built on VS Code
+- **[Replit]({{< relref "tools/replit" >}})** — Online IDE with built-in AI agent
+- **[Codeium]({{< relref "tools/codeium" >}})** — Free alternative with solid features
 
 ## What to Look For
 

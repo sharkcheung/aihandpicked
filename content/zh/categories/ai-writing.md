@@ -17,16 +17,15 @@ AI写作工具利用大型语言模型（LLM）来帮助你：
 
 ## 精选AI写作工具
 
-- [ChatGPT](/zh/tools/chatgpt/) — 全能型AI助手，支持多模态
-- [Claude](/zh/tools/claude/) — 长文本写作最佳，安全性高
-- [Kimi](/zh/tools/kimi/) — 中文友好，支持20万字上下文
-- [Perplexity](/zh/tools/perplexity/) — AI搜索引擎，实时信息检索
-- [Jasper](/zh/tools/jasper/) — 营销内容创作专家
-- [Copy.ai](/zh/tools/copy-ai/) — 快速生成文案和广告语
-- [Notion AI](/zh/tools/notion-ai/) — 集成在Notion中的AI助手
-- [Writesonic](/zh/tools/writersonic/) — 营销内容AI写作
-- [QuillBot](/zh/tools/quillbot/) — AI改写和语法检查
-- [Wordtune](/zh/tools/wordtune/) — 句子优化和表达改善
+- [ChatGPT]({{< relref "tools/chatgpt" >}}) — 全能型AI助手，支持多模态
+- [Claude]({{< relref "tools/claude" >}}) — 长文本写作最佳，安全性高
+- [Kimi]({{< relref "tools/kimi" >}}) — 中文友好，支持20万字上下文
+- [Perplexity]({{< relref "tools/perplexity" >}}) — AI搜索引擎，实时信息检索
+- [Jasper]({{< relref "tools/jasper" >}}) — 营销内容创作专家
+- [Copy.ai]({{< relref "tools/copy-ai" >}}) — 快速生成文案和广告语
+- [Notion AI]({{< relref "tools/notion-ai" >}}) — 集成在Notion中的AI助手
+- [QuillBot]({{< relref "tools/quillbot" >}}) — AI改写和语法检查
+- [Wordtune]({{< relref "tools/wordtune" >}}) — 句子优化和表达改善
 
 ## 热门工具对比
 
@@ -44,4 +43,4 @@ AI写作工具利用大型语言模型（LLM）来帮助你：
 **营销文案**：选择 Jasper 或 Copy.ai
 **搜索引擎**：选择 Perplexity
 
-[查看全部AI写作工具 →](/zh/tools/)
+[查看全部AI写作工具 →]({{< relref "tools/_index" >}})

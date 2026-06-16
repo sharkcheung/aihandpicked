@@ -17,13 +17,13 @@ AI视频工具利用深度学习来：
 
 ## 精选AI视频工具
 
-- [Runway](/zh/tools/runway/) — 专业级AI视频平台
-- [Pika](/zh/tools/pika/) — 免费AI视频生成
-- [HeyGen](/zh/tools/heygen/) — AI数字人视频
-- [Synthesia](/zh/tools/synthesia/) — 企业AI视频培训
-- [Veed](/zh/tools/veed/) — 在线视频编辑+AI字幕
-- [InVideo](/zh/tools/invideo/) — 脚本转视频
-- [Kapwing AI](/zh/tools/kapwing-ai/) — 社交媒体视频编辑
+- [Runway]({{< relref "tools/runway" >}}) — 专业级AI视频平台
+- [Pika]({{< relref "tools/pika" >}}) — 免费AI视频生成
+- [HeyGen]({{< relref "tools/heygen" >}}) — AI数字人视频
+- [Synthesia]({{< relref "tools/synthesia" >}}) — 企业AI视频培训
+- [Veed]({{< relref "tools/veed" >}}) — 在线视频编辑+AI字幕
+- [InVideo]({{< relref "tools/invideo" >}}) — 脚本转视频
+- [Kapwing AI]({{< relref "tools/kapwing-ai" >}}) — 社交媒体视频编辑
 
 ## 热门工具对比
 
@@ -34,4 +34,4 @@ AI视频工具利用深度学习来：
 | HeyGen | ❌ | $29/月 | 数字人最佳 |
 | Synthesia | ❌ | $29/月 | 企业培训 |
 
-[查看全部AI视频工具 →](/zh/tools/)
+[查看全部AI视频工具 →]({{< relref "tools/_index" >}})

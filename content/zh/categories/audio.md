@@ -17,14 +17,14 @@ AI音频工具利用深度学习来：
 
 ## 精选AI音频工具
 
-- [ElevenLabs](/zh/tools/elevenlabs/) — 顶级语音克隆和TTS
-- [Murf](/zh/tools/murf/) — 专业配音生成
-- [Descript](/zh/tools/descript/) — 音频/视频编辑+转录
-- [Suno](/zh/tools/suno/) — AI音乐创作
-- [Udio](/zh/tools/udio/) — 人人可用的AI音乐
-- [AIVA](/zh/tools/aiva/) — 情感配乐生成
-- [Soundraw](/zh/tools/soundraw/) — 可定制背景音乐
-- [Boomy](/zh/tools/boomy/) — AI音乐+发行
+- [ElevenLabs]({{< relref "tools/elevenlabs" >}}) — 顶级语音克隆和TTS
+- [Murf]({{< relref "tools/murf" >}}) — 专业配音生成
+- [Descript]({{< relref "tools/descript" >}}) — 音频/视频编辑+转录
+- [Suno]({{< relref "tools/suno" >}}) — AI音乐创作
+- [Udio]({{< relref "tools/udio" >}}) — 人人可用的AI音乐
+- [AIVA]({{< relref "tools/aiva" >}}) — 情感配乐生成
+- [Soundraw]({{< relref "tools/soundraw" >}}) — 可定制背景音乐
+- [Boomy]({{< relref "tools/boomy" >}}) — AI音乐+发行
 
 ## 热门工具对比
 
@@ -35,4 +35,4 @@ AI音频工具利用深度学习来：
 | Murf | ❌ | $29/月 | 专业配音 |
 | Boomy | ✅ | — | 音乐发行 |
 
-[查看全部AI音频工具 →](/zh/tools/)
+[查看全部AI音频工具 →]({{< relref "tools/_index" >}})

@@ -17,15 +17,15 @@ AI图像生成工具利用扩散模型和大型语言模型来：
 
 ## 精选AI图像生成工具
 
-- [Midjourney](/zh/tools/midjourney/) — 最高质量艺术风格
-- [DALL·E 3](/zh/tools/dall-e-3/) — OpenAI出品，文字准确
-- [Stable Diffusion](/zh/tools/stable-diffusion/) — 开源免费，可本地部署
-- [Leonardo.ai](/zh/tools/leonardo/) — 游戏和动漫风格
-- [Ideogram](/zh/tools/ideogram/) — 文字图像效果最好
-- [Flux](/zh/tools/flux/) — Black Forest Labs最新力作
-- [Adobe Firefly](/zh/tools/adobe-firefly/) — Adobe创意云集成
-- [Bing Image Creator](/zh/tools/bing-image-creator/) — 微软免费生成
-- [Canva AI](/zh/tools/canva-ai/) — 设计平台+AI
+- [Midjourney]({{< relref "tools/midjourney" >}}) — 最高质量艺术风格
+- [DALL·E 3]({{< relref "tools/dall-e-3" >}}) — OpenAI出品，文字准确
+- [Stable Diffusion]({{< relref "tools/stable-diffusion" >}}) — 开源免费，可本地部署
+- [Leonardo.ai]({{< relref "tools/leonardo" >}}) — 游戏和动漫风格
+- [Ideogram]({{< relref "tools/ideogram" >}}) — 文字图像效果最好
+- [Flux]({{< relref "tools/flux" >}}) — Black Forest Labs最新力作
+- [Adobe Firefly]({{< relref "tools/adobe-firefly" >}}) — Adobe创意云集成
+- [Bing Image Creator]({{< relref "tools/bing-image-creator" >}}) — 微软免费生成
+- [Canva AI]({{< relref "tools/canva-ai" >}}) — 设计平台+AI
 
 ## 热门工具对比
 
@@ -36,4 +36,4 @@ AI图像生成工具利用扩散模型和大型语言模型来：
 | Stable Diffusion | ✅ | 免费 | 开源可定制 |
 | Bing Image Creator | ✅ | 免费 | 完全免费 |
 
-[查看全部AI图像工具 →](/zh/tools/)
+[查看全部AI图像工具 →]({{< relref "tools/_index" >}})

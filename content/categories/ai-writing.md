@@ -11,11 +11,11 @@ AI writing assistants help you create content faster — from blog posts and ema
 
 ## Top AI Writing Tools
 
-- **[ChatGPT](/tools/chatgpt/)** — Most versatile AI assistant for any writing task
-- **[Claude](/tools/claude/)** — Best for long-form content and nuanced writing
-- **[Jasper](/tools/jasper/)** — Built for marketing teams and content marketers
-- **[Copy.ai](/tools/copy-ai/)** — Free AI copywriting with generous free tier
-- **[Notion AI](/tools/notion-ai/)** — AI assistance inside your Notion workspace
+- **[ChatGPT]({{< relref "tools/chatgpt" >}})** — Most versatile AI assistant for any writing task
+- **[Claude]({{< relref "tools/claude" >}})** — Best for long-form content and nuanced writing
+- **[Jasper]({{< relref "tools/jasper" >}})** — Built for marketing teams and content marketers
+- **[Copy.ai]({{< relref "tools/copy-ai" >}})** — Free AI copywriting with generous free tier
+- **[Notion AI]({{< relref "tools/notion-ai" >}})** — AI assistance inside your Notion workspace
 
 ## What to Look For
 

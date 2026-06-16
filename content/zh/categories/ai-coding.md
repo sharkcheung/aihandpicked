@@ -17,13 +17,13 @@ AI编程助手利用代码专用的大型语言模型来帮助你：
 
 ## 精选AI编程工具
 
-- [GitHub Copilot](/zh/tools/github-copilot/) — 最流行的AI编程助手
-- [Cursor](/zh/tools/cursor/) — 专为AI时代设计的代码编辑器
-- [Replit](/zh/tools/replit/) — 云端IDE+AI协作
-- [Codeium](/zh/tools/codeium/) — 免费开源的AI编程助手
-- [Tabnine](/zh/tools/tabnine/) — 企业级代码补全
-- [CodeWhisperer](/zh/tools/codewhisperer/) — 亚马逊免费AI编程
-- [Cody](/zh/tools/cody/) — Sourcegraph代码智能助手
+- [GitHub Copilot]({{< relref "tools/github-copilot" >}}) — 最流行的AI编程助手
+- [Cursor]({{< relref "tools/cursor" >}}) — 专为AI时代设计的代码编辑器
+- [Replit]({{< relref "tools/replit" >}}) — 云端IDE+AI协作
+- [Codeium]({{< relref "tools/codeium" >}}) — 免费开源的AI编程助手
+- [Tabnine]({{< relref "tools/tabnine" >}}) — 企业级代码补全
+- [CodeWhisperer]({{< relref "tools/codewhisperer" >}}) — 亚马逊免费AI编程
+- [Cody]({{< relref "tools/cody" >}}) — Sourcegraph代码智能助手
 
 ## 热门工具对比
 
@@ -41,4 +41,4 @@ AI编程助手利用代码专用的大型语言模型来帮助你：
 **预算有限**：选择 Codeium 或 CodeWhisperer
 **团队协作**：选择 Tabnine 或 Cody
 
-[查看全部AI编程工具 →](/zh/tools/)
+[查看全部AI编程工具 →]({{< relref "tools/_index" >}})
