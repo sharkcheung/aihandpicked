@@ -2,6 +2,6 @@
 {{- $title := .Title -}}
 {{- $attrs := .Attributes -}}
 {{- if hasPrefix $dest "/" -}}
-{{- $dest = print .Page.LanguagePrefix $dest -}}
+{{- $dest = print "/" .Page.Language.Lang $dest -}}
 {{- end -}}
 <a href="{{ $dest | safeURL }}"{{ with $title }} title="{{ . }}"{{ end }}{{ range $k, $v := $attrs }} {{ $k }}="{{ $v }}"{{ end }}>{{ .Text }}</a>
