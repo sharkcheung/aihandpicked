@@ -8,7 +8,7 @@
     {{- end }}
     <h1 class="post-title p-name">{{ .Title }}</h1>
     <div class="post-meta">
-      <span class="post-category">{{- range $i, $cat := .Params.categories }}{{ if $i }}, {{ end }}<a href="{{ "/categories/" | relURL }}{{ $cat | urlize }}/">{{ . }}</a>{{- end }}</span>
+      <span class="post-category">{{- range $i, $cat := .Params.categories }}{{ if $i }}, {{ end }}<a href="{{ "categories/" | relLangURL }}{{ $cat | urlize }}/">{{ . }}</a>{{- end }}</span>
       {{- if .Params.tools.developer }}
       <span class="post-meta-sep">|</span>
       <span>By <strong>{{ .Params.tools.developer }}</strong></span>
@@ -78,7 +78,7 @@
   <footer class="post-footer">
     <ul class="post-tags">
       {{- range . }}
-      <li><a href="{{ " /tags/ " | relLangURL }}{{ . | urlize }}/"><sup>#</sup>{{ . }}</a></li>
+      <li><a href="{{ "tags/" | relLangURL }}{{ . | urlize }}/"><sup>#</sup>{{ . }}</a></li>
       {{- end }}
     </ul>
   </footer>

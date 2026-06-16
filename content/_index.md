@@ -12,11 +12,11 @@ Whether you're looking for AI writing assistants, image generators, code helpers
 
 Browse our handpicked selection of the best AI tools across different categories:
 
-- **AI Writing** — [ChatGPT](/tools/chatgpt/), [Claude](/tools/claude/), [Jasper](/tools/jasper/), [Copy.ai](/tools/copy-ai/), [Notion AI](/tools/notion-ai/)
-- **AI Image Generation** — [Midjourney](/tools/midjourney/), [DALL·E 3](/tools/dall-e-3/), [Stable Diffusion](/tools/stable-diffusion/), [Leonardo.ai](/tools/leonardo/), [Ideogram](/tools/ideogram/)
-- **AI Coding** — [GitHub Copilot](/tools/github-copilot/), [Cursor](/tools/cursor/), [Replit](/tools/replit/), [Codeium](/tools/codeium/)
-- **AI Video** — [Runway](/tools/runway/), [Pika](/tools/pika/), [HeyGen](/tools/heygen/)
-- **AI Audio** — [ElevenLabs](/tools/elevenlabs/), [Murf](/tools/murf/), [Descript](/tools/descript/)
+- **AI Writing** — [ChatGPT]({{< relLangRef "/tools/chatgpt/" >}}), [Claude]({{< relLangRef "/tools/claude/" >}}), [Jasper]({{< relLangRef "/tools/jasper/" >}}), [Copy.ai]({{< relLangRef "/tools/copy-ai/" >}}), [Notion AI]({{< relLangRef "/tools/notion-ai/" >}})
+- **AI Image Generation** — [Midjourney]({{< relLangRef "/tools/midjourney/" >}}), [DALL·E 3]({{< relLangRef "/tools/dall-e-3/" >}}), [Stable Diffusion]({{< relLangRef "/tools/stable-diffusion/" >}}), [Leonardo.ai]({{< relLangRef "/tools/leonardo.ai/" >}}), [Ideogram]({{< relLangRef "/tools/ideogram/" >}})
+- **AI Coding** — [GitHub Copilot]({{< relLangRef "/tools/github-copilot/" >}}), [Cursor]({{< relLangRef "/tools/cursor/" >}}), [Replit]({{< relLangRef "/tools/replit/" >}}), [Codeium]({{< relLangRef "/tools/codeium/" >}})
+- **AI Video** — [Runway]({{< relLangRef "/tools/runway/" >}}), [Pika]({{< relLangRef "/tools/pika/" >}}), [HeyGen]({{< relLangRef "/tools/heygen/" >}})
+- **AI Audio** — [ElevenLabs]({{< relLangRef "/tools/elevenlabs/" >}}), [Murf]({{< relLangRef "/tools/murf-ai/" >}}), [Descript]({{< relLangRef "/tools/descript/" >}})
 
 ## 📊 Why Choose AI Handpicked?
 
@@ -29,4 +29,4 @@ Browse our handpicked selection of the best AI tools across different categories
 
 Explore our categories or jump straight to a featured tool below.
 
-[Explore AI Tools →](/tools/)
+[Explore AI Tools →]({{< relLangRef "/tools/" >}})

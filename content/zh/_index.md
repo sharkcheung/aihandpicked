@@ -13,11 +13,11 @@ description: "AI Handpicked — 2026年最优秀的AI工具精选导航。包含
 
 ## 🔥 精选AI工具
 
-- **AI写作** — [ChatGPT](/zh/tools/chatgpt/)、[Claude](/zh/tools/claude/)、[Kimi](/zh/tools/kimi/)、[Perplexity](/zh/tools/perplexity/)
-- **AI图像** — [Midjourney](/zh/tools/midjourney/)、[DALL·E 3](/zh/tools/dall-e-3/)、[Ideogram](/zh/tools/ideogram/)、[Canva AI](/zh/tools/canva-ai/)
-- **AI编程** — [GitHub Copilot](/zh/tools/github-copilot/)、[Cursor](/zh/tools/cursor/)、[CodeWhisperer](/zh/tools/codewhisperer/)
-- **AI视频** — [Runway](/zh/tools/runway/)、[HeyGen](/zh/tools/heygen/)、[Synthesia](/zh/tools/synthesia/)
-- **AI音频** — [ElevenLabs](/zh/tools/elevenlabs/)、[Suno](/zh/tools/suno/)、[Udio](/zh/tools/udio/)
+- **AI写作** — [ChatGPT](/tools/chatgpt/)、[Claude](/tools/claude/)、[Kimi](/tools/kimi/)、[Perplexity](/tools/perplexity/)
+- **AI图像** — [Midjourney](/tools/midjourney/)、[DALL·E 3](/tools/dall-e-3/)、[Ideogram](/tools/ideogram/)、[Canva AI](/tools/canva-ai/)
+- **AI编程** — [GitHub Copilot](/tools/github-copilot/)、[Cursor](/tools/cursor/)、[CodeWhisperer](/tools/codewhisperer/)
+- **AI视频** — [Runway](/tools/runway/)、[HeyGen](/tools/heygen/)、[Synthesia](/tools/synthesia/)
+- **AI音频** — [ElevenLabs](/tools/elevenlabs/)、[Suno](/tools/suno/)、[Udio](/tools/udio/)
 
 ## 📊 为什么选择我们？
 
@@ -30,4 +30,4 @@ description: "AI Handpicked — 2026年最优秀的AI工具精选导航。包含
 
 按分类浏览，或直接跳转到感兴趣的精选工具。
 
-[探索AI工具 →](/zh/tools/)
+[探索AI工具 →](/tools/)
