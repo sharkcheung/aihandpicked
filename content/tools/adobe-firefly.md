@@ -1,4 +1,6 @@
 ---
+slug: "adobe-firefly"
+
 title: "Adobe Firefly — Best Creative Cloud AI Image Generator"
 description: "Complete review of Adobe Firefly — AI image generation designed for creatives, with commercial safety built-in."
 categories: ["image", "generation", "creative"]

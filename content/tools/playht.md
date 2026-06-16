@@ -1,4 +1,6 @@
 ---
+slug: "playht"
+
 title: "PlayHT — Ultra-Realistic AI Voice Generation"
 description: "PlayHT is an AI text-to-speech platform generating ultra-realistic voices with emotion, ideal for podcasts, videos, and audiobooks."
 categories: ["audio"]

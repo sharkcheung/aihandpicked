@@ -1,4 +1,6 @@
 ---
+slug: "jasper"
+
 title: "Jasper — AI营销文案写作专家"
 date: 2026-06-15
 draft: false

@@ -1,4 +1,6 @@
 ---
+slug: "face-swap"
+
 title: "Faceswapper — AI Face Swap Tool"
 description: "Faceswapper uses AI to realistically swap faces in photos and videos, popular for content creation and entertainment."
 categories: ["image", "video"]

@@ -1,4 +1,6 @@
 ---
+slug: "wordtune"
+
 title: "Wordtune — Best AI Writing Companion for Better Sentences"
 description: "Complete review of Wordtune — AI writing assistant that helps you rewrite and improve sentences for clarity and impact."
 categories: ["writing", "editing"]

@@ -1,4 +1,6 @@
 ---
+slug: "codewhisperer"
+
 title: "Amazon CodeWhisperer — Best Free AI Coding Assistant by Amazon"
 description: "Complete review of Amazon CodeWhisperer — free AI-powered coding assistant with security scanning and AWS integration."
 categories: ["coding", "completion", "free"]

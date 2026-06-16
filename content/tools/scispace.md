@@ -1,4 +1,6 @@
 ---
+slug: "scispace"
+
 title: "SciSpace — AI Research Paper Assistant"
 description: "SciSpace (Typeset.io) is an AI tool that helps researchers understand academic papers with explanations, summaries, and literature discovery."
 categories: ["research"]

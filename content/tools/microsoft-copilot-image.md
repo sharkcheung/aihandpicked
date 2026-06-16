@@ -1,4 +1,6 @@
 ---
+slug: "microsoft-copilot-image"
+
 title: "Microsoft Copilot — AI Assistant with Image Generation"
 description: "Microsoft Copilot combines GPT-4 and DALL-E 3 in a free AI assistant that generates images, answers questions, and helps with tasks."
 categories: ["multimodal", "productivity"]

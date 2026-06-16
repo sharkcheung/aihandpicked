@@ -1,4 +1,6 @@
 ---
+slug: "vidu"
+
 title: "Vidu — AI Video Generator by ShengShu"
 description: "Vidu is an AI video generation platform by ShengShu Technology, creating high-quality videos from text and images with Chinese language optimization."
 categories: ["video"]

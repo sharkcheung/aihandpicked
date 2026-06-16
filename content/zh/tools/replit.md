@@ -1,4 +1,6 @@
 ---
+slug: "replit"
+
 title: "Replit — AI云端协作编程平台"
 date: 2026-06-15
 draft: false

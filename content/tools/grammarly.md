@@ -1,4 +1,6 @@
 ---
+slug: "grammarly"
+
 title: "Grammarly — AI Writing Assistant for Flawless Communication"
 description: "Grammarly uses advanced AI to check grammar, improve style, and help you write confidently across all platforms."
 categories: ["writing", "productivity"]

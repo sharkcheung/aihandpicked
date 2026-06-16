@@ -1,4 +1,6 @@
 ---
+slug: "jasper-chat"
+
 title: "Jasper Chat — Best Enterprise AI Chat for Teams"
 description: "Complete review of Jasper Chat — enterprise-grade AI assistant designed for marketing teams and businesses."
 categories: ["writing", "marketing", "enterprise"]

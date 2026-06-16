@@ -1,4 +1,6 @@
 ---
+slug: "topaz-video-ai"
+
 title: "Topaz Video AI — Professional AI Video Upscaling"
 description: "Topaz Video AI uses advanced AI to upscale, sharpen, and enhance video footage, trusted by filmmakers and broadcasters."
 categories: ["video", "productivity"]

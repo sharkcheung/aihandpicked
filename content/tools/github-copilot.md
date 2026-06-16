@@ -1,4 +1,6 @@
 ---
+slug: "github-copilot"
+
 title: "GitHub Copilot — Best AI Coding Assistant for IDE Integration"
 description: "Complete review of GitHub Copilot — features, pricing, pros, cons, and comparison with Cursor and Codeium."
 categories: ["coding"]

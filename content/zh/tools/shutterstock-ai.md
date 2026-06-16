@@ -1,4 +1,6 @@
 ---
+slug: "shutterstock-ai"
+
 title: "Shutterstock AI — 版权图库+AI生成"
 date: 2026-06-15
 draft: false

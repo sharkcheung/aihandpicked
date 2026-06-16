@@ -1,4 +1,6 @@
 ---
+slug: "masterpiece-x"
+
 title: "Masterpiece X — AI 3D Creation for VR and Gaming"
 description: "Masterpiece X generates rigged 3D characters and models using AI, designed for VRChat, games, and virtual worlds."
 categories: ["3d", "gaming"]

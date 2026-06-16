@@ -1,4 +1,6 @@
 ---
+slug: "invideo"
+
 title: "InVideo — Best AI Script-to-Video Platform"
 description: "Complete review of InVideo — transform text scripts into professional videos with AI, templates, and stock footage."
 categories: ["video", "generation", "marketing"]

@@ -1,4 +1,6 @@
 ---
+slug: "anyword"
+
 title: "Anyword — AI Writing with Performance Prediction"
 description: "Anyword is an AI writing tool that predicts content performance and provides data-driven insights for better marketing copy."
 categories: ["writing"]

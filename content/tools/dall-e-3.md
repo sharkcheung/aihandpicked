@@ -1,4 +1,6 @@
 ---
+slug: "dall-e-3"
+
 title: "DALL·E 3 — Best AI Image Generator for Text Fidelity"
 description: "Complete review of DALL·E 3 by OpenAI — text rendering, ChatGPT integration, and image quality analysis."
 categories: ["image", "generation"]

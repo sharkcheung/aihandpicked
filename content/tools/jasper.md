@@ -1,4 +1,6 @@
 ---
+slug: "jasper"
+
 title: "Jasper — Best AI Marketing & Copywriting Tool"
 description: "Complete review of Jasper — AI-powered marketing copy, ad copy, blog posts, and brand voice management."
 categories: ["writing", "marketing"]

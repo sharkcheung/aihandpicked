@@ -1,4 +1,6 @@
 ---
+slug: "pika"
+
 title: "Pika — 对话式AI视频生成"
 date: 2026-06-15
 draft: false

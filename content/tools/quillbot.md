@@ -1,4 +1,6 @@
 ---
+slug: "quillbot"
+
 title: "QuillBot — Best AI Paraphrasing and Grammar Tool"
 description: "Complete review of QuillBot — AI-powered paraphrasing tool with grammar checker, summarizer, and citation generator."
 categories: ["writing", "editing"]

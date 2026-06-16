@@ -1,4 +1,6 @@
 ---
+slug: "imagen-3"
+
 title: "Imagen 3 — Google's Latest AI Image Generator"
 description: "Imagen 3 is Google's most advanced text-to-image model, generating photorealistic images with exceptional detail and prompt adherence."
 categories: ["image"]

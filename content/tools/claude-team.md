@@ -1,4 +1,6 @@
 ---
+slug: "claude-team"
+
 title: "Claude for Teams — Best Secure AI Assistant for Organizations"
 description: "Complete review of Claude for Teams — secure, collaborative AI assistant for organizations with strong privacy protections."
 categories: ["writing", "analysis", "enterprise"]

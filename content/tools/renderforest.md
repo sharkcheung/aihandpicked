@@ -1,4 +1,6 @@
 ---
+slug: "renderforest"
+
 title: "Renderforest — AI Video and Branding Platform"
 description: "Renderforest uses AI to help create professional videos, animations, logos, and websites for businesses and creators."
 categories: ["video", "design", "marketing"]

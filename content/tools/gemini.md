@@ -1,4 +1,6 @@
 ---
+slug: "gemini"
+
 title: "Gemini — Best Free AI Assistant by Google"
 description: "Complete review of Google Gemini — features, pricing, pros, cons, and how it compares to ChatGPT and Claude."
 categories: ["writing", "research", "multimodal"]

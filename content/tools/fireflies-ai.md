@@ -1,4 +1,6 @@
 ---
+slug: "fireflies-ai"
+
 title: "Fireflies.ai — AI Meeting Assistant for Teams"
 description: "Fireflies.ai records, transcribes, and analyzes meetings, helping teams capture insights and follow up on action items."
 categories: ["productivity", "audio"]

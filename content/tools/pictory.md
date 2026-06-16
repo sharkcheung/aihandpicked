@@ -1,4 +1,6 @@
 ---
+slug: "pictory"
+
 title: "Pictory — AI Video Creation from Long-Form Content"
 description: "Pictory converts blog posts and long videos into short social clips using AI, perfect for content repurposing."
 categories: ["video", "marketing"]

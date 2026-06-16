@@ -1,4 +1,6 @@
 ---
+slug: "midjourney"
+
 title: "Midjourney — 艺术风格AI图像生成器"
 date: 2026-06-15
 draft: false

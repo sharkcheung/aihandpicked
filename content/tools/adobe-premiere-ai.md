@@ -1,4 +1,6 @@
 ---
+slug: "adobe-premiere-ai"
+
 title: "Adobe Premiere AI — Best Professional Video Editing with AI Features"
 description: "Complete review of Adobe Premiere Pro with AI features — industry-standard video editing enhanced by Adobe Sensei AI."
 categories: ["video", "editing", "professional"]

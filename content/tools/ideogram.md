@@ -1,4 +1,6 @@
 ---
+slug: "ideogram"
+
 title: "Ideogram — AI Image Generator with Text Rendering"
 description: "Ideogram specializes in AI image generation with accurate text rendering, solving a major pain point for other generators."
 categories: ["image", "design"]

@@ -1,4 +1,6 @@
 ---
+slug: "tome"
+
 title: "Tome — AI Storytelling and Presentation Platform"
 description: "Tome uses AI to generate complete presentations from prompts, combining text, images, and layout in minutes."
 categories: ["design", "writing"]

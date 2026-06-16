@@ -1,4 +1,6 @@
 ---
+slug: "runway"
+
 title: "Runway — Best AI Video Generation Platform"
 description: "Complete review of Runway — AI-powered video generation, editing, and visual effects for creators."
 categories: ["video", "generation"]

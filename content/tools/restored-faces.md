@@ -1,4 +1,6 @@
 ---
+slug: "restored-faces"
+
 title: "GFP-GAN — AI Photo Restoration and Face Enhancement"
 description: "GFP-GAN uses generative AI to restore old, damaged, or low-quality photos, bringing new life to precious memories."
 categories: ["image", "restoration"]

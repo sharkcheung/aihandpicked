@@ -1,4 +1,6 @@
 ---
+slug: "otter-ai"
+
 title: "Otter.ai — AI Meeting Transcription and Notes"
 description: "Otter.ai automatically transcribes meetings, generates notes, and identifies action items using AI speech recognition."
 categories: ["productivity", "audio"]

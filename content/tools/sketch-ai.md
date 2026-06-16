@@ -1,4 +1,6 @@
 ---
+slug: "sketch-ai"
+
 title: "Sketch AI — AI Features for the Classic Mac Design Tool"
 description: "Sketch AI brings intelligent design assistance to the beloved Mac design tool, helping designers automate tasks and generate assets."
 categories: ["design", "productivity"]

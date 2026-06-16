@@ -1,4 +1,6 @@
 ---
+slug: "ernie"
+
 title: "Baidu ERNIE Bot — Best Chinese Large Language Model"
 description: "Complete review of Baidu ERNIE Bot — China's leading AI assistant with strong Chinese language capabilities and local services integration."
 categories: ["writing", "chinese-ai", "local services"]

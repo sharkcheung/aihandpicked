@@ -1,4 +1,6 @@
 ---
+slug: "wordtune"
+
 title: "Wordtune — AI写作助手，优化句子表达"
 description: "Wordtune完整评测 — AI写作助手，帮助你重写和改进句子，使表达更清晰、更有影响力。"
 categories: ["writing", "editing"]

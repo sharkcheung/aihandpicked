@@ -1,4 +1,6 @@
 ---
+slug: "rytr"
+
 title: "Rytr — Affordable AI Writing Assistant"
 description: "Rytr is a budget-friendly AI writing tool offering 40+ use cases and templates for generating various content types quickly."
 categories: ["writing"]

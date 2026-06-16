@@ -1,4 +1,6 @@
 ---
+slug: "beautiful-ai"
+
 title: "Beautiful.ai — AI Presentation Designer"
 description: "Beautiful.ai uses AI to design professional presentations automatically, handling layout, spacing, and formatting."
 categories: ["design", "productivity"]

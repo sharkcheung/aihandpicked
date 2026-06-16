@@ -1,4 +1,6 @@
 ---
+slug: "ernie"
+
 title: "文心一言 — 百度AI大语言模型"
 date: 2026-06-15
 draft: false

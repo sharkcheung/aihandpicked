@@ -1,4 +1,6 @@
 ---
+slug: "tripo3d"
+
 title: "Tripo3D — Fast AI 3D Model Generation"
 description: "Tripo3D creates 3D models from text or images in seconds, optimized for speed and quality for creators and developers."
 categories: ["3d", "design"]

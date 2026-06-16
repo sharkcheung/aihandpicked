@@ -1,4 +1,6 @@
 ---
+slug: "quillbot"
+
 title: "QuillBot — AI改写和语法检查工具"
 description: "QuillBot完整评测 — AI驱动的改写工具，带有语法检查器、摘要器和引用生成器。"
 categories: ["writing", "editing"]

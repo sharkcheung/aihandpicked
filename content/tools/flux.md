@@ -1,4 +1,6 @@
 ---
+slug: "flux"
+
 title: "Flux — Best State-of-the-Art Image Generation by Black Forest Labs"
 description: "Complete review of Flux by Black Forest Labs — the most advanced open-weight image generation model available."
 categories: ["image", "generation"]

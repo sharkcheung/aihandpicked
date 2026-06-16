@@ -1,4 +1,6 @@
 ---
+slug: "heygen"
+
 title: "HeyGen — Best AI Talking Head & Avatar Video"
 description: "Complete review of HeyGen — AI-powered talking head videos, avatar creation, and video translation."
 categories: ["video", "avatar"]

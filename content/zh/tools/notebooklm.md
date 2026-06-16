@@ -1,4 +1,6 @@
 ---
+slug: "notebooklm"
+
 title: "Google NotebookLM — AI驱动的阅读和研究助手"
 date: 2026-06-15
 draft: false

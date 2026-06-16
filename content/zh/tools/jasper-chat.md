@@ -1,4 +1,6 @@
 ---
+slug: "jasper-chat"
+
 title: "Jasper Chat — Jasper的对话式AI助手"
 date: 2026-06-15
 draft: false

@@ -1,4 +1,6 @@
 ---
+slug: "suno"
+
 title: "Suno — Best AI Music Generation from Text Prompts"
 description: "Complete review of Suno — create original songs with AI from simple text descriptions, no musical experience required."
 categories: ["audio", "music", "generation"]

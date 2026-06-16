@@ -1,4 +1,6 @@
 ---
+slug: "tabnine"
+
 title: "Tabnine — Best AI Code Completion for Developers"
 description: "Complete review of Tabnine — AI-powered code completion that runs locally or in the cloud, with strong privacy protections."
 categories: ["coding", "completion", "privacy"]

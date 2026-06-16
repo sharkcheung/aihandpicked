@@ -1,4 +1,6 @@
 ---
+slug: "perplexity"
+
 title: "Perplexity AI — Best AI Search Engine with Real-Time Answers"
 description: "Complete review of Perplexity AI — the AI-powered search engine that gives accurate, cited answers with real-time web access."
 categories: ["research", "search"]

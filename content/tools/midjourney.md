@@ -1,4 +1,6 @@
 ---
+slug: "midjourney"
+
 title: "Midjourney — Best AI Art Generator for Quality & Style"
 description: "Complete review of Midjourney — features, pricing, pros, cons, and how it compares to DALL-E 3 and Stable Diffusion."
 categories: ["image"]

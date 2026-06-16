@@ -1,4 +1,6 @@
 ---
+slug: "heygen"
+
 title: "HeyGen — AI数字人视频制作平台"
 date: 2026-06-15
 draft: false

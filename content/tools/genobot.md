@@ -1,4 +1,6 @@
 ---
+slug: "genobot"
+
 title: "GenoBot — AI Research Assistant for Genomics"
 description: "GenoBot is an AI-powered research assistant specialized in genomics and bioinformatics, helping researchers analyze genetic data efficiently."
 categories: ["research", "science"]

@@ -1,4 +1,6 @@
 ---
+slug: "aiva"
+
 title: "AIVA — Best AI Composer for Emotional Soundtracks"
 description: "Complete review of AIVA — AI composer that creates emotional soundtracks for films, games, and media projects."
 categories: ["audio", "music", "composition"]

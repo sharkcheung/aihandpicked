@@ -1,4 +1,6 @@
 ---
+slug: "canva-ai"
+
 title: "Canva AI — Best AI-Powered Design Platform"
 description: "Complete review of Canva AI — the accessible design platform with powerful AI features for everyone."
 categories: ["image", "design", "creative"]

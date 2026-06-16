@@ -1,4 +1,6 @@
 ---
+slug: "leonardo"
+
 title: "Leonardo.ai — 游戏和动漫风格的AI图像生成"
 date: 2026-06-15
 draft: false

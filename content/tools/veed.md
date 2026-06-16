@@ -1,4 +1,6 @@
 ---
+slug: "veed"
+
 title: "Veed — Best Online Video Editor with AI Subtitles"
 description: "Complete review of Veed — online video editor with automatic subtitles, translations, and AI-powered features."
 categories: ["video", "editing", "subtitles"]

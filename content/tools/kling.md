@@ -1,4 +1,6 @@
 ---
+slug: "kling"
+
 title: "Kling — AI Video Generation by Kuaishou"
 description: "Kling is a powerful AI video generator by Kuaishou, creating high-quality videos from text and images with motion control."
 categories: ["video"]

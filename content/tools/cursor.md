@@ -1,4 +1,6 @@
 ---
+slug: "cursor"
+
 title: "Cursor — Best AI Code Editor"
 description: "Complete review of Cursor — the AI-first code editor built on VS Code with intelligent code generation and editing."
 categories: ["coding", "editor"]

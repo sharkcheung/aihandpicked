@@ -1,4 +1,6 @@
 ---
+slug: "jasper-art"
+
 title: "Jasper Art — AI Image Generation for Marketers"
 description: "Jasper Art is an AI image generator designed for marketers and content creators, integrated with Jasper's writing platform."
 categories: ["image", "marketing"]

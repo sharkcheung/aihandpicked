@@ -1,4 +1,6 @@
 ---
+slug: "ink"
+
 title: "INK — AI Writing with SEO Focus"
 description: "INK is an AI writing and SEO tool that helps create content optimized for search engines while maintaining readability and quality."
 categories: ["writing", "seo"]

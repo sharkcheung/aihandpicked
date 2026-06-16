@@ -1,4 +1,6 @@
 ---
+slug: "stable-diffusion"
+
 title: "Stable Diffusion — Best Open-Source AI Image Generator"
 description: "Complete review of Stable Diffusion — free, open-source, locally-run AI image generation with unlimited control."
 categories: ["image", "generation"]

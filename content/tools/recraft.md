@@ -1,4 +1,6 @@
 ---
+slug: "recraft"
+
 title: "Recraft — AI Image Generation for Brands"
 description: "Recraft is an AI image generator designed for brands, creating vector art, icons, and consistent brand imagery with style control."
 categories: ["image"]

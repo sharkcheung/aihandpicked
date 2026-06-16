@@ -1,4 +1,6 @@
 ---
+slug: "cap-cut"
+
 title: "CapCut — Free AI Video Editor by ByteDance"
 description: "CapCut is a free video editing app with powerful AI features, popular for TikTok, Instagram Reels, and YouTube Shorts."
 categories: ["video", "free"]

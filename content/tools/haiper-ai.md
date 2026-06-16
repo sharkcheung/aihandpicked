@@ -1,4 +1,6 @@
 ---
+slug: "haiper-ai"
+
 title: "Haiper AI — Realistic AI Video Generation"
 description: "Haiper AI generates highly realistic AI videos from text and images, known for consistent motion and quality outputs."
 categories: ["video", "generative"]

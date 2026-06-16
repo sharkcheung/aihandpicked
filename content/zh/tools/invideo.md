@@ -1,4 +1,6 @@
 ---
+slug: "invideo"
+
 title: "InVideo — 模板驱动的AI视频制作"
 date: 2026-06-15
 draft: false

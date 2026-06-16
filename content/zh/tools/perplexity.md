@@ -1,4 +1,6 @@
 ---
+slug: "perplexity"
+
 title: "Perplexity AI — AI驱动的实时搜索引擎"
 description: "Perplexity AI完整评测 — AI驱动的搜索引擎，提供准确的、带引用的实时答案。"
 categories: ["research", "search"]

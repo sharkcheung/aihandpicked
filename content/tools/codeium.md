@@ -1,4 +1,6 @@
 ---
+slug: "codeium"
+
 title: "Codeium — Best Free AI Coding Assistant"
 description: "Complete review of Codeium — free AI autocomplete, chat, and code generation for 70+ IDEs and editors."
 categories: ["coding", "autocomplete"]

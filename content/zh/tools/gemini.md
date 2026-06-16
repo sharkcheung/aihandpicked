@@ -1,4 +1,6 @@
 ---
+slug: "gemini"
+
 title: "Gemini — Google推出的免费AI助手"
 description: "Google Gemini完整评测 — 功能、定价、优缺点，以及与ChatGPT和Claude的对比分析。"
 categories: ["writing", "research", "multimodal"]

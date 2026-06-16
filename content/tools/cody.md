@@ -1,4 +1,6 @@
 ---
+slug: "cody"
+
 title: "Sourcegraph Cody — Best AI Coding Assistant with Code Intelligence"
 description: "Complete review of Sourcegraph Cody — AI coding assistant that understands your entire codebase using advanced code intelligence."
 categories: ["coding", "intelligence", "enterprise"]

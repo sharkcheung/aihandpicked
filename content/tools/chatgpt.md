@@ -1,4 +1,6 @@
 ---
+slug: "chatgpt"
+
 title: "ChatGPT — Best AI Writing & Multimodal Assistant"
 description: "Complete review of ChatGPT by OpenAI — features, pricing, pros, cons, and how it compares to alternatives."
 categories: ["writing", "multimodal"]

@@ -1,4 +1,6 @@
 ---
+slug: "lucidchart-ai"
+
 title: "Lucidchart AI — Intelligent Diagramming Assistant"
 description: "Lucidchart AI helps create flowcharts, org charts, and diagrams automatically using natural language prompts."
 categories: ["design", "productivity"]

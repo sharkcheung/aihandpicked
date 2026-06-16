@@ -1,4 +1,6 @@
 ---
+slug: "originality-ai"
+
 title: "Originality.ai — AI Content Detector for Publishers"
 description: "Originality.ai detects AI-generated content and plagiarism, helping publishers maintain authenticity and avoid search penalties."
 categories: ["marketing", "writing"]

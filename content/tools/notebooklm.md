@@ -1,4 +1,6 @@
 ---
+slug: "notebooklm"
+
 title: "Google NotebookLM — Best AI-Powered Research and Note-Taking"
 description: "Complete review of Google NotebookLM — AI research assistant that helps you understand complex topics using your own documents."
 categories: ["research", "notes", "documents"]

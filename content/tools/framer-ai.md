@@ -1,4 +1,6 @@
 ---
+slug: "framer-ai"
+
 title: "Framer AI — AI Website Builder for Designers"
 description: "Framer AI lets you build complete websites using AI-generated designs, perfect for designers who want to ship fast without coding."
 categories: ["design", "web-development"]

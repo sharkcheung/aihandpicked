@@ -1,4 +1,6 @@
 ---
+slug: "descript"
+
 title: "Descript — Best AI Audio & Video Editing Tool"
 description: "Complete review of Descript — AI-powered editing where you edit video by editing text transcripts."
 categories: ["audio", "video", "editing"]

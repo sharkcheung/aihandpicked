@@ -1,4 +1,6 @@
 ---
+slug: "tabnine"
+
 title: "Tabnine — 企业级AI代码补全"
 date: 2026-06-15
 draft: false

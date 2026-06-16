@@ -1,4 +1,6 @@
 ---
+slug: "semrush"
+
 title: "Semrush — AI-Powered SEO and Marketing Platform"
 description: "Semrush uses AI to power its comprehensive SEO toolkit, helping marketers research keywords, analyze competitors, and optimize content."
 categories: ["marketing", "seo"]

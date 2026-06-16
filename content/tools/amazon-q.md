@@ -1,4 +1,6 @@
 ---
+slug: "amazon-q"
+
 title: "Amazon Q — AI Assistant for AWS and Business"
 description: "Amazon Q is AWS's AI assistant, helping developers build on AWS and businesses automate workflows with generative AI."
 categories: ["coding", "productivity", "enterprise"]

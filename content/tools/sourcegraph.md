@@ -1,4 +1,6 @@
 ---
+slug: "sourcegraph"
+
 title: "Sourcegraph — AI Code Search and Intelligence"
 description: "Sourcegraph is a code search and intelligence platform with AI features to understand, search, and navigate large codebases."
 categories: ["coding"]

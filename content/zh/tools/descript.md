@@ -1,4 +1,6 @@
 ---
+slug: "descript"
+
 title: "Descript — 革新性的AI音视频编辑器"
 date: 2026-06-15
 draft: false

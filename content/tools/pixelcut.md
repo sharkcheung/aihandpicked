@@ -1,4 +1,6 @@
 ---
+slug: "pixelcut"
+
 title: "Pixelcut — AI Photo Editing for E-Commerce"
 description: "Pixelcut offers AI-powered photo editing tools designed for e-commerce, including background removal and product photo enhancement."
 categories: ["image", "e-commerce"]

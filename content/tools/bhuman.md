@@ -1,4 +1,6 @@
 ---
+slug: "bhuman"
+
 title: "Bhuman — AI Personalized Video for Sales"
 description: "Bhuman creates personalized videos at scale using AI, helping sales teams send thousands of custom video messages."
 categories: ["video", "sales"]

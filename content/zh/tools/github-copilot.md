@@ -1,4 +1,6 @@
 ---
+slug: "github-copilot"
+
 title: "GitHub Copilot — 最流行的AI编程助手"
 date: 2026-06-15
 draft: false

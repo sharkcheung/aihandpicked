@@ -1,4 +1,6 @@
 ---
+slug: "meshy"
+
 title: "Meshy — AI 3D Model Generator from Text and Images"
 description: "Meshy uses AI to generate 3D models from text prompts or images, making 3D content creation accessible to everyone."
 categories: ["3d", "design"]

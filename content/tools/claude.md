@@ -1,4 +1,6 @@
 ---
+slug: "claude"
+
 title: "Claude — Best AI for Long-Form Writing & Analysis"
 description: "Complete review of Claude by Anthropic — features, pricing, pros, cons, and why it excels at writing and analysis."
 categories: ["writing", "analysis"]

@@ -1,4 +1,6 @@
 ---
+slug: "gamma-app"
+
 title: "Gamma — AI Document and Presentation Creator"
 description: "Gamma uses AI to create documents, slides, and webpages from text prompts, offering a modern alternative to traditional tools."
 categories: ["design", "writing"]

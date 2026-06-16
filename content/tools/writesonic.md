@@ -1,4 +1,6 @@
 ---
+slug: "writesonic"
+
 title: "Writesonic — AI Writing Tool for Businesses"
 description: "Writesonic is an AI writing assistant that generates marketing copy, blog posts, and product descriptions with SEO optimization features."
 categories: ["writing"]

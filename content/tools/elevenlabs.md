@@ -1,4 +1,6 @@
 ---
+slug: "elevenlabs"
+
 title: "ElevenLabs — Best AI Voice Generator & Cloning"
 description: "Complete review of ElevenLabs — AI voice synthesis, text-to-speech, voice cloning, and dubbing."
 categories: ["audio", "voice"]

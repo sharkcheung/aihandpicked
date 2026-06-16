@@ -1,4 +1,6 @@
 ---
+slug: "notion-ai"
+
 title: "Notion AI — Best AI for Productivity & Documentation"
 description: "Complete review of Notion AI — AI-powered writing, summarization, and brainstorming inside Notion."
 categories: ["writing", "productivity"]

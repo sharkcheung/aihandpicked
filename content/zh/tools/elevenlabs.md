@@ -1,4 +1,6 @@
 ---
+slug: "elevenlabs"
+
 title: "ElevenLabs — 最逼真的AI语音合成"
 date: 2026-06-15
 draft: false

@@ -1,4 +1,6 @@
 ---
+slug: "playground-ai"
+
 title: "Playground AI — Free AI Image Generator with Advanced Control"
 description: "Playground AI is a free AI image generator offering advanced controls and multiple models, perfect for creators on a budget."
 categories: ["image", "free"]

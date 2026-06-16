@@ -1,4 +1,6 @@
 ---
+slug: "kimi"
+
 title: "Kimi AI — Best Chinese AI Assistant with 200K Context"
 description: "Complete review of Kimi AI by Moonshot — Chinese AI assistant with massive context window and strong reasoning."
 categories: ["writing", "research", "chinese-ai"]

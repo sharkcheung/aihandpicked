@@ -1,4 +1,6 @@
 ---
+slug: "copy-ai"
+
 title: "Copy.ai — Best Free AI Copywriting Tool"
 description: "Complete review of Copy.ai — free AI copywriting for ads, blogs, emails, social media, and more."
 categories: ["writing", "marketing"]

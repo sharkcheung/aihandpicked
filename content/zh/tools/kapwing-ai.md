@@ -1,4 +1,6 @@
 ---
+slug: "kapwing-ai"
+
 title: "Kapwing AI — 在线视频编辑器+AI"
 date: 2026-06-15
 draft: false

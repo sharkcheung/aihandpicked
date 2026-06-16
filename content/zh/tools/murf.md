@@ -1,4 +1,6 @@
 ---
+slug: "murf"
+
 title: "Murf AI — 专业配音工作站"
 date: 2026-06-15
 draft: false

@@ -1,4 +1,6 @@
 ---
+slug: "consensus"
+
 title: "Consensus — AI-Powered Academic Research Assistant"
 description: "Consensus is an AI research tool that searches academic papers and provides evidence-based answers to scientific questions."
 categories: ["research"]

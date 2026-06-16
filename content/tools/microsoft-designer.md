@@ -1,4 +1,6 @@
 ---
+slug: "microsoft-designer"
+
 title: "Microsoft Designer — AI-Powered Graphic Design Tool"
 description: "Microsoft Designer uses DALL-E and AI to help anyone create professional graphics, social media posts, and marketing materials."
 categories: ["design", "marketing"]

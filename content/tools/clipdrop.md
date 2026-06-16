@@ -1,4 +1,6 @@
 ---
+slug: "clipdrop"
+
 title: "ClipDrop — AI Photo Editing Suite by Stability AI"
 description: "ClipDrop offers a suite of AI photo tools including background removal, relighting, and generative fill, powered by Stability AI."
 categories: ["image", "productivity"]

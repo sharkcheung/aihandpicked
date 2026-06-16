@@ -1,4 +1,6 @@
 ---
+slug: "kimi"
+
 title: "Kimi — 中文友好的超长上下文AI助手"
 date: 2026-06-15
 draft: false

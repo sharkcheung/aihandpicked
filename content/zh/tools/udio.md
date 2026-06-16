@@ -1,4 +1,6 @@
 ---
+slug: "udio"
+
 title: "Udio — AI音乐生成新星"
 date: 2026-06-15
 draft: false

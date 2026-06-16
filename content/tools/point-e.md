@@ -1,4 +1,6 @@
 ---
+slug: "point-e"
+
 title: "Point-E — OpenAI's Open-Source 3D Model Generator"
 description: "Point-E by OpenAI generates 3D point clouds from text prompts, available as open-source for research and development."
 categories: ["3d", "research"]

@@ -1,4 +1,6 @@
 ---
+slug: "stable-diffusion"
+
 title: "Stable Diffusion — 开源免费可本地部署的AI图像"
 date: 2026-06-15
 draft: false

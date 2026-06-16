@@ -1,4 +1,6 @@
 ---
+slug: "copilot"
+
 title: "GitHub Copilot — AI Pair Programmer for Developers"
 description: "GitHub Copilot is the leading AI coding assistant, offering real-time code suggestions and completions in your IDE."
 categories: ["coding", "productivity"]

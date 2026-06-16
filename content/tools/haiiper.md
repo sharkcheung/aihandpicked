@@ -1,4 +1,6 @@
 ---
+slug: "haiiper"
+
 title: "Haiiper — AI Video Generation for Creators"
 description: "Haiiper is an AI video generator focused on creating marketing and social media videos from text prompts with professional templates."
 categories: ["video"]

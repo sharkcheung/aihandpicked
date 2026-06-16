@@ -1,4 +1,6 @@
 ---
+slug: "synthesia"
+
 title: "Synthesia — 专业AI数字人视频平台"
 date: 2026-06-15
 draft: false

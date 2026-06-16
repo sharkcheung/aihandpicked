@@ -1,4 +1,6 @@
 ---
+slug: "notion-ai"
+
 title: "Notion AI — 集成在笔记中的AI助手"
 date: 2026-06-15
 draft: false

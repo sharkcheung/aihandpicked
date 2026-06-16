@@ -1,4 +1,6 @@
 ---
+slug: "captures"
+
 title: "Captures — AI Video Creation Platform"
 description: "Captures is an AI video tool that transforms text into engaging video content with AI avatars and templates for marketing teams."
 categories: ["video"]

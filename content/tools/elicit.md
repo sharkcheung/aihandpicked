@@ -1,4 +1,6 @@
 ---
+slug: "elicit"
+
 title: "Elicit — AI Research Assistant for Literature Review"
 description: "Elicit is an AI research assistant that helps researchers find relevant papers, extract information, and organize literature reviews."
 categories: ["research"]

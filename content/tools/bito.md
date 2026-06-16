@@ -1,4 +1,6 @@
 ---
+slug: "bito"
+
 title: "Bito — AI Coding Assistant for Teams"
 description: "Bito is an AI coding assistant that helps developers write code, generate tests, and understand codebases with GPT-4 integration."
 categories: ["coding"]

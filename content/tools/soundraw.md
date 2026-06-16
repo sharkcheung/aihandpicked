@@ -1,4 +1,6 @@
 ---
+slug: "soundraw"
+
 title: "Soundraw — Best Customizable AI Music for Creators"
 description: "Complete review of Soundraw — AI music generation with unprecedented control over mood, genre, and structure."
 categories: ["audio", "music", "customizable"]

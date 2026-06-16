@@ -1,4 +1,6 @@
 ---
+slug: "pika"
+
 title: "Pika — Best Free AI Video Generator"
 description: "Complete review of Pika — accessible AI video generation with text-to-video, image-to-video, and video editing."
 categories: ["video", "generation"]

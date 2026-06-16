@@ -1,4 +1,6 @@
 ---
+slug: "figma-ai"
+
 title: "Figma AI — AI-Powered Design Assistant"
 description: "Figma AI brings intelligent design features to the popular design tool, automating repetitive tasks and generating UI components."
 categories: ["design", "productivity"]

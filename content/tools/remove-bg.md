@@ -1,4 +1,6 @@
 ---
+slug: "remove-bg"
+
 title: "Remove.bg — AI Background Removal Tool"
 description: "Remove.bg uses AI to automatically remove backgrounds from images, saving hours of manual editing work."
 categories: ["image", "productivity"]

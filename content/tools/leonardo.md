@@ -1,4 +1,6 @@
 ---
+slug: "leonardo"
+
 title: "Leonardo.ai — Best AI Image Generator for Game & Character Art"
 description: "Complete review of Leonardo.ai — AI image generation optimized for game assets, character design, and concept art."
 categories: ["image", "generation"]

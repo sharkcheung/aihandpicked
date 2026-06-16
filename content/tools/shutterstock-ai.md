@@ -1,4 +1,6 @@
 ---
+slug: "shutterstock-ai"
+
 title: "Shutterstock AI — Best AI Image Generation with Stock Library"
 description: "Complete review of Shutterstock AI — AI image generation combined with one of the world's largest stock libraries."
 categories: ["image", "generation", "stock"]

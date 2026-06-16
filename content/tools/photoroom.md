@@ -1,4 +1,6 @@
 ---
+slug: "photoroom"
+
 title: "PhotoRoom — AI Photo Studio for Products"
 description: "PhotoRoom uses AI to create professional product photos instantly, perfect for e-commerce sellers and content creators."
 categories: ["image", "e-commerce"]

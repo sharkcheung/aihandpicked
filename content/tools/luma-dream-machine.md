@@ -1,4 +1,6 @@
 ---
+slug: "luma-dream-machine"
+
 title: "Luma Dream Machine — AI Video Generation from Text and Images"
 description: "Luma Dream Machine generates high-quality AI videos from text prompts or images, competing with Sora and Runway."
 categories: ["video", "generative"]

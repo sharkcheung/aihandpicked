@@ -1,4 +1,6 @@
 ---
+slug: "lexica-art"
+
 title: "Lexica — AI Image Search and Generation"
 description: "Lexica is an AI image generator and search engine powered by Stable Diffusion, known for its high-quality, aesthetic outputs."
 categories: ["image", "search"]

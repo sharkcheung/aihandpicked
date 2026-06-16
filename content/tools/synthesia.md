@@ -1,4 +1,6 @@
 ---
+slug: "synthesia"
+
 title: "Synthesia — Best AI Video with Virtual Avatars"
 description: "Complete review of Synthesia — create professional AI videos with virtual avatars and multilingual voiceovers."
 categories: ["video", "avatars", "multilingual"]

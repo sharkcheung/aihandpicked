@@ -1,4 +1,6 @@
 ---
+slug: "luma-ai"
+
 title: "Luma AI — AI 3D Capture and NeRF Platform"
 description: "Luma AI uses neural radiance fields to capture real-world objects and scenes in 3D, perfect for VFX, e-commerce, and game development."
 categories: ["3d", "video"]

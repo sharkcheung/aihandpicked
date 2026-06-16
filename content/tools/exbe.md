@@ -1,4 +1,6 @@
 ---
+slug: "exbe"
+
 title: "Exbe — AI Video Editor for Creators"
 description: "Exbe is an AI-powered video editor that automates tedious tasks like cutting, captions, and repurposing content across platforms."
 categories: ["video"]

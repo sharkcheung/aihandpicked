@@ -1,4 +1,6 @@
 ---
+slug: "adobe-firefly-3"
+
 title: "Adobe Firefly 3 — Adobe's Generative AI Suite"
 description: "Adobe Firefly 3 is Adobe's generative AI for images, vectors, and video, integrated into Creative Cloud apps."
 categories: ["image"]

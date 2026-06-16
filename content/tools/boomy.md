@@ -1,4 +1,6 @@
 ---
+slug: "boomy"
+
 title: "Boomy — Best AI Music Generation and Distribution"
 description: "Complete review of Boomy — create AI music and distribute it to Spotify, Apple Music, and other streaming platforms."
 categories: ["audio", "music", "distribution"]

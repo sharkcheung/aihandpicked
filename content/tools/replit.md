@@ -1,4 +1,6 @@
 ---
+slug: "replit"
+
 title: "Replit — Best AI Online IDE & Collaborative Coding"
 description: "Complete review of Replit — browser-based AI-powered IDE with instant deployment and team collaboration."
 categories: ["coding", "ide"]

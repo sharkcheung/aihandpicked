@@ -1,4 +1,6 @@
 ---
+slug: "kapwing-ai"
+
 title: "Kapwing AI — Best AI Video Editing for Social Media"
 description: "Complete review of Kapwing AI — collaborative online video editor with AI tools designed for social media creators."
 categories: ["video", "editing", "social media"]

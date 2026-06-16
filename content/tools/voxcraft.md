@@ -1,4 +1,6 @@
 ---
+slug: "voxcraft"
+
 title: "VoxCraft — AI Video Generator for Social Media"
 description: "VoxCraft is an AI video generation platform optimized for social media, creating viral content with trending templates."
 categories: ["video"]

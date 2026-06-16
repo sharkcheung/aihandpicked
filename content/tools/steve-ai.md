@@ -1,4 +1,6 @@
 ---
+slug: "steve-ai"
+
 title: "Steve.AI — AI Video Maker for Businesses"
 description: "Steve.AI creates animated and live-action videos from text, designed for marketing teams and business communication."
 categories: ["video", "marketing"]

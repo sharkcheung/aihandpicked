@@ -1,4 +1,6 @@
 ---
+slug: "udio"
+
 title: "Udio — Best AI Music Creation for Everyone"
 description: "Complete review of Udio — high-quality AI music generation with superior vocal synthesis and creative controls."
 categories: ["audio", "music", "generation"]

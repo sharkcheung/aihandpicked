@@ -1,4 +1,6 @@
 ---
+slug: "murf"
+
 title: "Murf.ai — Best AI Voiceover for Presentations & Videos"
 description: "Complete review of Murf.ai — AI voiceovers for presentations, videos, e-learning, and professional content."
 categories: ["audio", "voice"]

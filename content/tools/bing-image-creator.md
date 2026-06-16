@@ -1,4 +1,6 @@
 ---
+slug: "bing-image-creator"
+
 title: "Bing Image Creator — Free AI Image Generation with DALL-E"
 description: "Bing Image Creator is Microsoft's free AI image generator powered by DALL-E 3, accessible via Bing or Copilot."
 categories: ["image", "free"]

@@ -1,4 +1,6 @@
 ---
+slug: "whisper"
+
 title: "OpenAI Whisper — State-of-the-Art Speech Recognition"
 description: "Whisper is OpenAI's open-source speech recognition model, offering accurate transcription in 100+ languages."
 categories: ["audio", "productivity"]

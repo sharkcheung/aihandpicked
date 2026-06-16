@@ -1,4 +1,6 @@
 ---
+slug: "supermaven"
+
 title: "Supermaven — Ultra-Fast AI Coding Assistant"
 description: "Supermaven is a lightning-fast AI code completion tool with a 1-million token context window, perfect for large codebases."
 categories: ["coding"]

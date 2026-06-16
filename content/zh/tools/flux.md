@@ -1,4 +1,6 @@
 ---
+slug: "flux"
+
 title: "Flux — Stability AI最新图像生成模型"
 date: 2026-06-15
 draft: false

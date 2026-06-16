@@ -1,4 +1,6 @@
 ---
+slug: "ideogram-2"
+
 title: "Ideogram 2 — Next-Gen AI Image Generation with Perfect Text"
 description: "Ideogram 2 delivers significant improvements in image quality and text accuracy, setting new standards for AI-generated graphics."
 categories: ["image", "design"]
