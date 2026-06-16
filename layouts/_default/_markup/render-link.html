@@ -1,7 +1,1 @@
-{{- $dest := .Destination -}}
-{{- $title := .Title -}}
-{{- $attrs := .Attributes -}}
-{{- if hasPrefix $dest "/" -}}
-{{- $dest = print "/" .Page.Language.Lang $dest -}}
-{{- end -}}
-<a href="{{ $dest | safeURL }}"{{ with $title }} title="{{ . }}"{{ end }}{{ range $k, $v := $attrs }} {{ $k }}="{{ $v }}"{{ end }}>{{ .Text }}</a>
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text }}</a>
