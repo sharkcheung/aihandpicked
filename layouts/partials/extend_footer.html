@@ -9,9 +9,9 @@
     <p>© 2026 <a href="{{ .Site.BaseURL }}">AI Handpicked</a> — 精选AI工具导航</p>
     <p>
       <a href="{{ .Site.BaseURL }}">首页</a> · 
-      <a href="{{ .Site.BaseURL }}tools/">工具列表</a> · 
-      <a href="{{ .Site.BaseURL }}categories/">分类</a> · 
-      <a href="/">English</a>
+      <a href="{{ "tools/" | relLangURL }}">工具列表</a> · 
+      <a href="{{ "categories/" | relLangURL }}">分类</a> · 
+      <a href="{{ "en/" | relURL }}">English</a>
     </p>
   </div>
 </footer>
@@ -24,9 +24,9 @@
     <p>© 2026 <a href="{{ .Site.BaseURL }}">AI Handpicked</a> — Your curated guide to the best AI tools</p>
     <p>
       <a href="{{ .Site.BaseURL }}">Home</a> · 
-      <a href="{{ .Site.BaseURL }}tools/">All Tools</a> · 
-      <a href="{{ .Site.BaseURL }}categories/">Categories</a> · 
-      <a href="/zh/">中文</a>
+      <a href="{{ "tools/" | relLangURL }}">All Tools</a> · 
+      <a href="{{ "categories/" | relLangURL }}">Categories</a> · 
+      <a href="{{ "zh/" | relURL }}">中文</a>
     </p>
   </div>
 </footer>
