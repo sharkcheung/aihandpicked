@@ -1,3 +1,4 @@
+<!-- Deployed: 2026-06-16 15:20 CST -->
 {{- /* Custom Header with Language Switcher */ -}}
 {{- $theme := .Site.Params.defaultTheme | default "auto" -}}
 <header class="header">
@@ -25,12 +26,12 @@
             <!-- Navigation Menu -->
             <ul class="menu-list">
                 <li class="menu-item">
-                    <a href="{{ "tools/" | relLangURL }}" class="menu-link">
+                    <a href="{{ .Site.LanguagePrefix }}/tools/" class="menu-link">
                         {{- if eq .Language.Lang "zh" }}工具{{ else }}Tools{{ end -}}
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="{{ "categories/" | relLangURL }}" class="menu-link">
+                    <a href="{{ .Site.LanguagePrefix }}/categories/" class="menu-link">
                         {{- if eq .Language.Lang "zh" }}分类{{ else }}Categories{{ end -}}
                     </a>
                 </li>
