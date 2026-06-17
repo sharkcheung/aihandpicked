@@ -5,6 +5,8 @@ draft: false
 description: "AI Handpicked — 2026年最优秀的AI工具精选导航。包含ChatGPT、Midjourney、Claude、Cursor等热门AI工具的真实评测、定价对比和优缺点分析。"
 ---
 
+Impact-Site-Verification: b580cbf6-c6d5-4830-8017-bbdecbeee7dc
+
 # 🤖 AI工具精选导航
 
 欢迎来到 **AI Handpicked**，我们精心挑选并深度评测了目前最优秀的AI工具。
