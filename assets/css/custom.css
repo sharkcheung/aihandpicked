@@ -1228,6 +1228,11 @@ a.tool-cta:hover {
   text-align: center;
   padding: 3rem 1rem;
   color: var(--text-secondary);
+  display: none !important;
+}
+
+.search-no-results[style*="block"] {
+  display: block !important;
 }
 
 .search-no-results h3 {
