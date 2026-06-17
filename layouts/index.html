@@ -5,34 +5,29 @@
   <section class="hero-section">
     <div class="hero-inner">
       <div class="hero-badge">
-        <span>🤖</span> 2026 AI工具导航
+        <span>🤖</span> {{ if eq .Language.Lang "zh" }}2026 AI工具导航{{ else }}2026 AI Tools Guide{{ end }}
       </div>
-      <h1 class="hero-title">发现最优秀的AI工具</h1>
+      <h1 class="hero-title">{{ if eq .Language.Lang "zh" }}发现最优秀的AI工具{{ else }}Discover the Best AI Tools{{ end }}</h1>
       <p class="hero-subtitle">
-        真实评测、客观对比、清晰定价。<br />
-        为你的工作流找到最合适的AI助手。
+        {{ if eq .Language.Lang "zh" }}
+        真实评测、客观对比、清晰定价。<br />为你的工作流找到最合适的AI助手。
+        {{ else }}
+        Hand-tested reviews, honest comparisons, and clear pricing.<br />Find the perfect AI tool for your workflow.
+        {{ end }}
       </p>
 
-      {{- /* Search box — client-side filter via JS */ -}}
       <div class="hero-search">
         <span class="hero-search-icon">🔍</span>
-        <input
-          type="text"
-          id="hero-search"
-          placeholder="搜索AI工具…"
-          autocomplete="off"
-          spellcheck="false"
-        />
+        <input type="text" id="hero-search" placeholder="{{ if eq .Language.Lang "zh" }}搜索AI工具…{{ else }}Search AI tools…{{ end }}" autocomplete="off" spellcheck="false" />
       </div>
 
-      {{- /* Category quick links */ -}}
       <div class="hero-categories">
-        <a class="hero-chip" href="/zh/categories/ai-writing/"><span class="emoji">✍️</span> AI写作</a>
-        <a class="hero-chip" href="/zh/categories/ai-image/"><span class="emoji">🎨</span> AI图像</a>
-        <a class="hero-chip" href="/zh/categories/ai-coding/"><span class="emoji">💻</span> AI编程</a>
-        <a class="hero-chip" href="/zh/categories/ai-video/"><span class="emoji">🎬</span> AI视频</a>
-        <a class="hero-chip" href="/zh/categories/ai-audio/"><span class="emoji">🎙️</span> AI音频</a>
-        <a class="hero-chip" href="/zh/tools/"><span class="emoji">📋</span> 全部工具</a>
+        <a class="hero-chip" href="{{ "categories/ai-writing/" | relLangURL }}"><span class="emoji">✍️</span> {{ if eq .Language.Lang "zh" }}AI写作{{ else }}AI Writing{{ end }}</a>
+        <a class="hero-chip" href="{{ "categories/ai-image/" | relLangURL }}"><span class="emoji">🎨</span> {{ if eq .Language.Lang "zh" }}AI图像{{ else }}AI Image{{ end }}</a>
+        <a class="hero-chip" href="{{ "categories/ai-coding/" | relLangURL }}"><span class="emoji">💻</span> {{ if eq .Language.Lang "zh" }}AI编程{{ else }}AI Coding{{ end }}</a>
+        <a class="hero-chip" href="{{ "categories/ai-video/" | relLangURL }}"><span class="emoji">🎬</span> {{ if eq .Language.Lang "zh" }}AI视频{{ else }}AI Video{{ end }}</a>
+        <a class="hero-chip" href="{{ "categories/ai-audio/" | relLangURL }}"><span class="emoji">🎙️</span> {{ if eq .Language.Lang "zh" }}AI音频{{ else }}AI Audio{{ end }}</a>
+        <a class="hero-chip" href="{{ "tools/" | relLangURL }}"><span class="emoji">📋</span> {{ if eq .Language.Lang "zh" }}全部工具{{ else }}All Tools{{ end }}</a>
       </div>
     </div>
   </section>
@@ -44,26 +39,20 @@
   -}}
   {{- $featured := slice -}}
   {{- range $pinned -}}
-    {{- with $.Site.GetPage (printf "/zh/tools/%s" .) -}}
+    {{- with $.Site.GetPage (printf "/tools/%s" .) -}}
       {{- $featured = $featured | append . -}}
     {{- end -}}
   {{- end -}}
 
   {{- with $featured -}}
   <div class="main-container" style="max-width:1100px; margin:0 auto; padding: 0 1.25rem;">
-    <h2 class="section-heading">精选AI工具</h2>
+    <h2 class="section-heading">{{ if eq $.Language.Lang "zh" }}精选AI工具{{ else }}Featured AI Tools{{ end }}</h2>
     <div class="tool-card-grid" id="tool-grid">
       {{- range . -}}
       <a href="{{ .Permalink }}" class="tool-card">
         <div class="tool-card-header">
           {{- if and .Params.tools (reflect.IsMap .Params.tools) .Params.tools.logo -}}
-          <img
-            src="{{ .Params.tools.logo }}"
-            alt="{{ .Title }} logo"
-            class="tool-card-logo"
-            width="44" height="44"
-            loading="lazy"
-          />
+          <img src="{{ .Params.tools.logo }}" alt="{{ .Title }} logo" class="tool-card-logo" width="44" height="44" loading="lazy" />
           {{- else -}}
           <span style="font-size:1.8rem; line-height:1;">🤖</span>
           {{- end -}}
@@ -83,17 +72,17 @@
       {{- end -}}
     </div>
     <div class="search-no-results" id="no-results" style="display:none;">
-      <h3>未找到匹配的工具</h3>
-      <p>换个关键词试试，或 <a href="/zh/tools/">浏览全部工具</a>。</p>
+      <h3>{{ if eq $.Language.Lang "zh" }}未找到匹配的工具{{ else }}No tools found{{ end }}</h3>
+      <p>{{ if eq $.Language.Lang "zh" }}换个关键词试试，或 <a href="{{ "tools/" | relLangURL }}">浏览全部工具</a>。{{ else }}Try a different search term or <a href="{{ "tools/" | relLangURL }}">browse all tools</a>.{{ end }}</p>
     </div>
   </div>
   {{- end -}}
 
   {{- /* ── Latest Tools ── */ -}}
-  {{- $latest := where .Site.RegularPages "Section" "tools" | intersect (where .Site.RegularPages "Language.Lang" "zh") | first 8 -}}
+  {{- $latest := where .Site.RegularPages "Section" "tools" | first 8 -}}
   {{- with $latest -}}
   <div class="main-container" style="max-width:1100px; margin:2.5rem auto 0; padding: 0 1.25rem;">
-    <h2 class="section-heading">最新评测</h2>
+    <h2 class="section-heading">{{ if eq $.Language.Lang "zh" }}最新评测{{ else }}Latest Reviews{{ end }}</h2>
     <div class="post-entry-list">
       {{- range . -}}
       <a href="{{ .Permalink }}" class="post-entry">
@@ -108,22 +97,21 @@
       {{- end -}}
     </div>
     <div style="text-align:center; margin-top:1.5rem;">
-      <a href="/zh/tools/" class="tool-cta" style="border-radius:9999px;">查看全部AI工具 →</a>
+      <a href="{{ "tools/" | relLangURL }}" class="tool-cta" style="border-radius:9999px;">{{ if eq $.Language.Lang "zh" }}查看全部AI工具 →{{ else }}View All AI Tools →{{ end }}</a>
     </div>
   </div>
   {{- end -}}
 
   {{- /* ── Browse by Category ── */ -}}
-  {{- $categories := index .Site.Taxonomies.categoriesByLanguage (or .Site.Language "en") -}}
-  {{- with $categories -}}
+  {{- with .Site.Taxonomies.categories -}}
   <div class="main-container" style="max-width:1100px; margin:2.5rem auto; padding: 0 1.25rem;">
-    <h2 class="section-heading">按分类浏览</h2>
+    <h2 class="section-heading">{{ if eq $.Language.Lang "zh" }}按分类浏览{{ else }}Browse by Category{{ end }}</h2>
     <div class="category-card-grid">
-      {{- range $name, $items := $categories -}}
-      <a href="{{ "categories/" | relLangURL }}{{ $name | urlize }}/" class="category-card">
+      {{- range $name, $items := . -}}
+      <a href="{{ printf "categories/%s/" $name | relLangURL }}" class="category-card">
         <div class="category-card-icon">{{- index (slice "✍️" "🎨" "💻" "🎬" "🎙️" "🔍" "📊" "🎮") (mod (len $name) 8) -}}</div>
         <div class="category-card-name">{{ $name | humanize | title }}</div>
-        <div class="category-card-desc">{{ len $items }} 个工具</div>
+        <div class="category-card-desc">{{ len $items }}{{ if eq $.Language.Lang "zh" }} 个工具{{ else }} tools{{ end }}</div>
       </a>
       {{- end -}}
     </div>
@@ -132,14 +120,12 @@
 
 </main>
 
-{{- /* ── Client-side search filter ── */ -}}
 <script>
 (function () {
   var input = document.getElementById('hero-search');
   var grid = document.getElementById('tool-grid');
   var noResults = document.getElementById('no-results');
   if (!input || !grid) return;
-
   input.addEventListener('input', function () {
     var q = this.value.toLowerCase().trim();
     var cards = grid.querySelectorAll('.tool-card');
