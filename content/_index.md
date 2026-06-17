@@ -2,8 +2,6 @@
 title: "AI Handpicked"
 ---
 
-Impact-Site-Verification: b580cbf6-c6d5-4830-8017-bbdecbeee7dc
-
 # Best AI Tools — Handpicked For You
 
 Welcome to **AI Handpicked**, your curated guide to the best AI tools available today.
