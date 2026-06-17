@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Canva AI — 设计平台的AI功能"
 date: 2026-06-15
 draft: false

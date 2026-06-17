@@ -1,4 +1,4 @@
-﻿---
+---
 title: "ChatGPT — 最强全能AI助手"
 date: 2026-06-15
 draft: false

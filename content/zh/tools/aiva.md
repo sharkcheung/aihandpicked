@@ -1,4 +1,4 @@
-﻿---
+---
 title: "AIVA — AI音乐创作引擎"
 date: 2026-06-15
 draft: false

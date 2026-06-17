@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Amazon CodeWhisperer — AWS免费AI编程助手"
 date: 2026-06-15
 draft: false

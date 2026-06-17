@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Claude — AI写作和长文本分析最佳助手"
 date: 2026-06-15
 draft: false

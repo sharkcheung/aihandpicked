@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Boomy — 生成音乐并发布到全球平台"
 date: 2026-06-15
 draft: false

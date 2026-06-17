@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Claude for Teams — 企业级AI助手"
 date: 2026-06-15
 draft: false

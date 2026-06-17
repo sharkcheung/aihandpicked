@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Adobe Premiere Pro AI — 视频剪辑+AI"
 date: 2026-06-15
 draft: false
