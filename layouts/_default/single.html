@@ -1,7 +1,7 @@
 {{- define "main" -}}
 <article class="post-single h-entry">
   <header class="post-header">
-    {{- if .Params.tools.logo }}
+    {{- if and .Params.tools (reflect.IsMap .Params.tools) .Params.tools.logo }}
     <div class="tool-logo">
       <img src="{{ .Params.tools.logo }}" alt="{{ .Params.tools.name }} logo" width="64" height="64" loading="lazy" />
     </div>
@@ -9,11 +9,11 @@
     <h1 class="post-title p-name">{{ .Title }}</h1>
     <div class="post-meta">
       <span class="post-category">{{- range $i, $cat := .Params.categories }}{{ if $i }}, {{ end }}<a href="{{ "categories/" | relLangURL }}{{ $cat | urlize }}/">{{ . }}</a>{{- end }}</span>
-      {{- if .Params.tools.developer }}
+      {{- if and (reflect.IsMap .Params.tools) .Params.tools.developer }}
       <span class="post-meta-sep">|</span>
       <span>By <strong>{{ .Params.tools.developer }}</strong></span>
       {{- end }}
-      {{- if .Params.tools.pricing }}
+      {{- if and (reflect.IsMap .Params.tools) .Params.tools.pricing }}
       <span class="post-meta-sep">|</span>
       <span>{{ .Params.tools.pricing }}</span>
       {{- end }}
@@ -25,7 +25,7 @@
   {{- end }}
 
   <!-- Quick Info Box -->
-  {{- if .Params.tools }}
+  {{- if and .Params.tools (reflect.IsMap .Params.tools) }}
   <div class="tool-info-box">
     <table>
       <tr>

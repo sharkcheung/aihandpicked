@@ -26,8 +26,13 @@
 <meta name="description" content="{{ .Description }}" />
 {{- $toolName := .Title -}}
 {{- $toolUrl := "" -}}
-{{- with .Params.tools }}
-  {{- $toolUrl = .url -}}
+{{- if and (eq .Type "comparison") }}{{/* comparison pages: no single tool URL */}}
+{{- else }}
+  {{- with .Params.tools }}
+    {{- if reflect.IsMap . }}
+      {{- $toolUrl = .url -}}
+    {{- end }}
+  {{- end }}
 {{- end }}
 <script type="application/ld+json">
 {
