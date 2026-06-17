@@ -10,7 +10,7 @@
   </header>
 
   {{- /* ── Tool Grid ── */ -}}
-  {{- $pages := .Pages -}}
+  {{- $pages := .Paginate .Pages -}}
   {{- with $pages -}}
   <div class="tool-card-grid" id="tool-grid">
     {{- range . -}}
