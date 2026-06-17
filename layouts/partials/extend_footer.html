@@ -32,6 +32,9 @@
 </footer>
 {{- end -}}
 
+<!-- Back to Top Button -->
+<a href="#" class="back-to-top" id="back-to-top" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">↑</a>
+
 <style>
 .site-footer {
   padding: 1.5rem 1rem;
@@ -45,10 +48,20 @@
   color: var(--text-secondary);
 }
 .footer-content a {
-  color: #7B68EE;
+  color: #6366F1;
   text-decoration: none;
 }
 .footer-content a:hover {
   text-decoration: underline;
 }
 </style>
+
+<script>
+(function () {
+  var btn = document.getElementById('back-to-top');
+  if (!btn) return;
+  window.addEventListener('scroll', function () {
+    btn.classList.toggle('visible', window.scrollY > 400);
+  }, { passive: true });
+})();
+</script>
