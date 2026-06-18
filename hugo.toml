@@ -36,6 +36,9 @@ paginate = 20
     languageCode = "zh-CN"
     weight = 2
     title = "AI Handpicked — 精选AI工具导航"
+    contentDir = "content/zh"
+    params.description = "2026年最优秀的AI工具精选导航。ChatGPT、Midjourney、Claude、Cursor等热门AI工具的真实评测、定价对比。"
+    params.keywords = ["AI工具", "人工智能", "ChatGPT", "AI写作", "AI图像生成", "AI编程", "AI视频", "AI评测"]
 
     [[languages.zh.menu.main]]
       name = "AI工具"
@@ -49,9 +52,6 @@ paginate = 20
       name = "指南"
       url = "/zh/guides/"
       weight = 3
-    contentDir = "content/zh"
-    params.description = "2026年最优秀的AI工具精选导航。ChatGPT、Midjourney、Claude、Cursor等热门AI工具的真实评测、定价对比。"
-    params.keywords = ["AI工具", "人工智能", "ChatGPT", "AI写作", "AI图像生成", "AI编程", "AI视频", "AI评测"]
 
 [params]
   env = "production"

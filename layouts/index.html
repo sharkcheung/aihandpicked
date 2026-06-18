@@ -33,16 +33,21 @@
   </section>
 
   {{- /* ── Featured Tools ── */ -}}
-  {{- $pinned := slice
-    "chatgpt" "claude" "midjourney" "cursor" "github-copilot"
-    "runway" "elevenlabs" "canva-ai" "perplexity" "ideogram"
-  -}}
+  {{- $pinned := slice "chatgpt" "claude" "midjourney" "grok" "manus" -}}
+  {{- $lang := .Language.Lang -}}
+  {{- $allTools := where (where .Site.AllPages "Section" "tools") "Kind" "page" -}}
+  {{- $langTools := where $allTools "Language.Lang" $lang -}}
   {{- $featured := slice -}}
   {{- range $pinned -}}
-    {{- with $.Site.GetPage (printf "/tools/%s" .) -}}
-      {{- $featured = $featured | append . -}}
+    {{- $slug := . -}}
+    {{- range $langTools -}}
+      {{- $pageSlug := .Params.slug | default .File.BaseFileName -}}
+      {{- if eq $pageSlug $slug -}}
+        {{- $featured = $featured | append . -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
+
 
   {{- with $featured -}}
   <div class="main-container" style="max-width:1100px; margin:0 auto; padding: 0 1.25rem;">
@@ -79,7 +84,7 @@
   {{- end -}}
 
   {{- /* ── Latest Tools ── */ -}}
-  {{- $latest := where .Site.RegularPages "Section" "tools" | first 8 -}}
+  {{- $latest := where $langTools "Kind" "page" | first 8 -}}
   {{- with $latest -}}
   <div class="main-container" style="max-width:1100px; margin:2.5rem auto 0; padding: 0 1.25rem;">
     <h2 class="section-heading">{{ if eq $.Language.Lang "zh" }}最新评测{{ else }}Latest Reviews{{ end }}</h2>
