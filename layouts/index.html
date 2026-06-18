@@ -1,0 +1,54 @@
+{{- define "main" -}}
+<main class="main">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- with .Description }}<p>{{ . }}</p>{{- end }}
+  </header>
+  
+  <!-- Featured Guides -->
+  {{- $guides := where .Site.RegularPages "Section" "guides" }}
+  {{- if $guides }}
+  <section class="home-section">
+    <h2>Guides</h2>
+    <div class="post-entry-list">
+      {{- range first 4 $guides }}
+      <article class="post-entry">
+        <header class="entry-header">
+          <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        </header>
+        {{- with .Description }}
+        <div class="entry-content">
+          <p>{{ . | truncate 120 }}</p>
+        </div>
+        {{- end }}
+      </article>
+      {{- end }}
+    </div>
+    <a href="/guides/" class="view-all">View all guides →</a>
+  </section>
+  {{- end }}
+  
+  <!-- Featured Tools -->
+  {{- $tools := where .Site.RegularPages "Section" "tools" }}
+  {{- if $tools }}
+  <section class="home-section">
+    <h2>AI Tools</h2>
+    <div class="post-entry-list">
+      {{- range first 8 $tools }}
+      <article class="post-entry">
+        <header class="entry-header">
+          <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        </header>
+        {{- with .Description }}
+        <div class="entry-content">
+          <p>{{ . | truncate 120 }}</p>
+        </div>
+        {{- end }}
+      </article>
+      {{- end }}
+    </div>
+    <a href="/tools/" class="view-all">Browse all tools →</a>
+  </section>
+  {{- end }}
+</main>
+{{- end -}}
