@@ -1,5 +1,6 @@
 ---
 title: "AI图像生成工具"
+slug: "ai-image"
 description: "精选AI图像生成工具：Midjourney、DALL·E 3、Stable Diffusion、Ideogram等。文本转图像，创意无限。"
 ---
 

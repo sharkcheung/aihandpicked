@@ -1,5 +1,6 @@
 ---
 title: "AI音频和音乐工具"
+slug: "ai-audio"
 description: "精选AI音频工具：ElevenLabs、Suno、Udio、Murf等。AI配音、音乐生成、语音克隆。"
 ---
 

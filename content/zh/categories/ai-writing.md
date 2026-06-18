@@ -1,5 +1,6 @@
 ---
 title: "AI写作工具"
+slug: "ai-writing"
 description: "精选AI写作助手：ChatGPT、Claude、Jasper、Kimi、Perplexity等。真实评测，免费和付费方案对比。"
 ---
 

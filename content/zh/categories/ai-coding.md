@@ -1,5 +1,6 @@
 ---
 title: "AI编程助手"
+slug: "ai-coding"
 description: "精选AI编程工具：GitHub Copilot、Cursor、Tabnine、CodeWhisperer等。提升编码效率，减少重复工作。"
 ---
 

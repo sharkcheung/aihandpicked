@@ -1,5 +1,6 @@
 ---
 title: "AI视频生成工具"
+slug: "ai-video"
 description: "精选AI视频工具：Runway、HeyGen、Synthesia、Pika等。AI数字人、视频生成、字幕自动化。"
 ---
 
