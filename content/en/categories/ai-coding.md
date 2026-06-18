@@ -1,5 +1,6 @@
 ---
 title: "AI Coding Assistants"
+slug: "ai-coding"
 description: "Boost your coding productivity with AI-powered code completion, debugging, and generation."
 categories: ["coding"]
 tags: ["AI coding", "code completion", "programming"]

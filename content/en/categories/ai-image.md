@@ -1,5 +1,6 @@
 ---
 title: "AI Image Generation Tools"
+slug: "ai-image"
 description: "Create stunning images with AI. Compare Midjourney, DALL-E 3, Stable Diffusion, and more."
 categories: ["image"]
 tags: ["AI art", "image generation", "midjourney", "DALL-E"]

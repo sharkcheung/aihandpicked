@@ -1,5 +1,6 @@
 ---
 title: "AI Writing Tools"
+slug: "ai-writing"
 description: "Discover the best AI writing assistants for content creation, copywriting, and brainstorming."
 categories: ["writing"]
 tags: ["AI writing", "copywriting", "content creation"]
