@@ -1,37 +1,76 @@
 {{- define "main" -}}
 <main class="main">
   {{- if and (eq .Section "tools") (eq .Kind "page") (not .Title) }}
-  {{- /* HACK: Hugo contentDir incorrectly identifies tools/_index.md as a page. Render as list. */ -}}
-  <header class="page-header">
-    <h1>{{ if .Title }}{{ .Title }}{{ else }}AI Tools{{ end }}</h1>
-    {{- with .Description }}<p>{{ . }}</p>{{- end }}
-  </header>
-  <div class="post-entry-list">
-    {{- $lang := .Language.Lang }}
-    {{- range where .Site.RegularPages "Section" "tools" }}
-    {{- if eq .Language.Lang $lang }}
-    <article class="post-entry">
-      <header class="entry-header">
-        <h2 class="entry-hint-parent">
-          <a href="{{ .Permalink }}" class="entry-link">{{ .Title }}</a>
-        </h2>
-      </header>
-      {{- if .Description }}
-      <div class="entry-content">
-        <p>{{ .Description | truncate 160 }}</p>
-      </div>
+  {{- /* HACK: Hugo contentDir incorrectly identifies tools/_index.md as a page. Render as card grid. */ -}}
+  <div style="max-width:1100px; margin:0 auto; padding: 2rem 1.25rem;">
+    <header style="text-align:center; margin-bottom:2rem;">
+      <h1 style="font-size:2rem; font-weight:700;">{{ if eq .Language.Lang "zh" }}AI 工具{{ else }}AI Tools{{ end }}</h1>
+    </header>
+
+    <div class="hero-search" style="max-width:560px; margin:0 auto 2.5rem;">
+      <span class="hero-search-icon">🔍</span>
+      <input type="text" id="tools-search"
+        placeholder="{{ if eq .Language.Lang "zh" }}搜索AI工具…{{ else }}Search AI tools…{{ end }}"
+        autocomplete="off" spellcheck="false" />
+    </div>
+
+    <div class="tool-card-grid" id="tools-grid">
+      {{- $lang := .Language.Lang }}
+      {{- range where .Site.RegularPages "Section" "tools" }}
+      {{- if eq .Language.Lang $lang }}
+      <a href="{{ .Permalink }}" class="tool-card">
+        <div class="tool-card-header">
+          {{- if and .Params.tools (reflect.IsMap .Params.tools) .Params.tools.logo -}}
+          <img src="{{ .Params.tools.logo }}" alt="{{ .Title }} logo" class="tool-card-logo" width="44" height="44" loading="lazy" />
+          {{- else -}}
+          <span style="font-size:1.8rem; line-height:1;">🤖</span>
+          {{- end -}}
+          <div>
+            <div class="tool-card-name">{{ .Title }}</div>
+            <div class="tool-card-category">{{ delimit (default (slice) .Params.categories) ", " }}</div>
+          </div>
+        </div>
+        <p class="tool-card-desc">{{ .Description | truncate 120 }}</p>
+        <div class="tool-card-footer">
+          {{- if and .Params.tools (reflect.IsMap .Params.tools) .Params.tools.pricing -}}
+          <span class="tool-card-pricing">{{ .Params.tools.pricing }}</span>
+          {{- end -}}
+          <span class="tool-card-arrow">→</span>
+        </div>
+      </a>
       {{- end }}
-      <footer class="entry-footer">
-        {{- with .Params.categories }}
-        <span class="entry-categories">
-          {{- range . }}{{ . }}{{ end }}
-        </span>
-        {{- end }}
-      </footer>
-    </article>
-    {{- end }}
-    {{- end }}
+      {{- end }}
+    </div>
+
+    <div class="search-no-results" id="tools-no-results" style="display:none; text-align:center; padding:3rem 0;">
+      <h3>{{ if eq .Language.Lang "zh" }}未找到匹配的工具{{ else }}No tools found{{ end }}</h3>
+      <p>{{ if eq .Language.Lang "zh" }}换个关键词试试。{{ else }}Try a different search term.{{ end }}</p>
+    </div>
   </div>
+
+  <script>
+  (function () {
+    var input = document.getElementById('tools-search');
+    var grid = document.getElementById('tools-grid');
+    var noResults = document.getElementById('tools-no-results');
+    if (!input || !grid) return;
+    input.addEventListener('input', function () {
+      var q = this.value.toLowerCase().trim();
+      var cards = grid.querySelectorAll('.tool-card');
+      var count = 0;
+      cards.forEach(function (card) {
+        var name = card.querySelector('.tool-card-name').textContent.toLowerCase();
+        var desc = card.querySelector('.tool-card-desc').textContent.toLowerCase();
+        var cat  = card.querySelector('.tool-card-category').textContent.toLowerCase();
+        var show = !q || name.includes(q) || desc.includes(q) || cat.includes(q);
+        card.style.display = show ? '' : 'none';
+        if (show) count++;
+      });
+      if (noResults) noResults.style.display = count === 0 ? 'block' : 'none';
+    });
+  })();
+  </script>
+
   {{- else }}
   <article class="post-single">
     <header class="post-header">
