@@ -11,6 +11,7 @@ paginate = 20
 # Languages configuration for bilingual support
 [languages]
   [languages.en]
+    contentDir = "content/en"
     languageName = "English"
     languageCode = "en-US"
     weight = 1
