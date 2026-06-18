@@ -1,0 +1,7 @@
+TEST LIST TEMPLATE - THIS SHOULD APPEAR ON ALL LIST PAGES
+{{- define "main" -}}
+<main class="main">
+<h1>LIST PAGE: {{ .Title }}</h1>
+<p>Kind: {{ .Kind }} | Type: {{ .Type }} | Section: {{ .Section }}</p>
+</main>
+{{- end -}}

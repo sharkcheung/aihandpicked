@@ -1,0 +1,31 @@
+{{- define "main" -}}
+{{- if eq .Kind "section" -}}
+<main class="main">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- with .Description }}<p>{{ . }}</p>{{- end }}
+  </header>
+  <div class="post-entry-list">
+    {{- range .Pages }}
+    <article class="post-entry">
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      {{- with .Description }}<p>{{ . }}</p>{{- end }}
+    </article>
+    {{- end }}
+  </div>
+</main>
+{{- else -}}
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">{{ .Description }}</div>
+    {{- end }}
+  </header>
+  <section class="post-content">
+    {{ .Content }}
+  </section>
+</article>
+{{- end -}}
+{{- end -}}

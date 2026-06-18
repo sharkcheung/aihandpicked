@@ -1,5 +1,4 @@
 ---
-slug: "_index"
 
 title: "AI工具列表"
 description: "浏览我们精选的AI工具，包含深度评测、定价对比和真实优缺点分析。"
