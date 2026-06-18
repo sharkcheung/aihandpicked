@@ -1,31 +1,48 @@
 {{- define "main" -}}
-{{- if eq .Kind "section" -}}
 <main class="main">
+  {{- if and (eq .Section "tools") (eq .Kind "page") (not .Title) }}
+  {{- /* HACK: Hugo contentDir incorrectly identifies tools/_index.md as a page. Render as list. */ -}}
   <header class="page-header">
-    <h1>{{ .Title }}</h1>
+    <h1>{{ if .Title }}{{ .Title }}{{ else }}AI Tools{{ end }}</h1>
     {{- with .Description }}<p>{{ . }}</p>{{- end }}
   </header>
   <div class="post-entry-list">
-    {{- range .Pages }}
+    {{- $lang := .Language.Lang }}
+    {{- range where .Site.RegularPages "Section" "tools" }}
+    {{- if eq .Language.Lang $lang }}
     <article class="post-entry">
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      {{- with .Description }}<p>{{ . }}</p>{{- end }}
+      <header class="entry-header">
+        <h2 class="entry-hint-parent">
+          <a href="{{ .Permalink }}" class="entry-link">{{ .Title }}</a>
+        </h2>
+      </header>
+      {{- if .Description }}
+      <div class="entry-content">
+        <p>{{ .Description | truncate 160 }}</p>
+      </div>
+      {{- end }}
+      <footer class="entry-footer">
+        {{- with .Params.categories }}
+        <span class="entry-categories">
+          {{- range . }}{{ . }}{{ end }}
+        </span>
+        {{- end }}
+      </footer>
     </article>
     {{- end }}
-  </div>
-</main>
-{{- else -}}
-<article class="post-single">
-  <header class="post-header">
-    {{ partial "breadcrumbs.html" . }}
-    <h1 class="post-title">{{ .Title }}</h1>
-    {{- if .Description }}
-    <div class="post-description">{{ .Description }}</div>
     {{- end }}
-  </header>
-  <section class="post-content">
-    {{ .Content }}
-  </section>
-</article>
-{{- end -}}
+  </div>
+  {{- else }}
+  <article class="post-single">
+    <header class="post-header">
+      {{ partial "breadcrumbs.html" . }}
+      <h1 class="post-title">{{ .Title }}</h1>
+      {{- if .Description }}
+      <div class="post-description">{{ .Description }}</div>
+      {{- end }}
+    </header>
+    <section class="post-content">{{ .Content }}</section>
+  </article>
+  {{- end }}
+</main>
 {{- end -}}

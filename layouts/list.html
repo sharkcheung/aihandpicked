@@ -1,7 +1,32 @@
-TEST LIST TEMPLATE - THIS SHOULD APPEAR ON ALL LIST PAGES
 {{- define "main" -}}
 <main class="main">
-<h1>LIST PAGE: {{ .Title }}</h1>
-<p>Kind: {{ .Kind }} | Type: {{ .Type }} | Section: {{ .Section }}</p>
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- with .Description }}<p>{{ . }}</p>{{- end }}
+  </header>
+  <div class="post-entry-list">
+    {{- range .Pages }}
+    <article class="post-entry">
+      <header class="entry-header">
+        <h2 class="entry-hint-parent">
+          <a href="{{ .Permalink }}" class="entry-link">{{ .Title }}</a>
+        </h2>
+      </header>
+      {{- if .Description }}
+      <div class="entry-content">
+        <p>{{ .Description | truncate 160 }}</p>
+      </div>
+      {{- end }}
+      <footer class="entry-footer">
+        {{- with .Params.categories }}
+        <span class="entry-categories">
+          {{- range . }}{{ . }}{{ end }}
+        </span>
+        {{- end }}
+      </footer>
+    </article>
+    {{- end }}
+  </div>
+  {{- template "_internal/pagination.html" . }}
 </main>
 {{- end -}}
