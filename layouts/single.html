@@ -16,8 +16,15 @@
 
     <div class="tool-card-grid" id="tools-grid">
       {{- $lang := .Language.Lang }}
-      {{- range where .Site.RegularPages "Section" "tools" }}
-      {{- if eq .Language.Lang $lang }}
+      {{- $self := .Permalink }}
+      {{- $pages := where .Site.RegularPages "Section" "tools" }}
+      {{- $filtered := slice }}
+      {{- range $pages }}
+        {{- if and (eq .Language.Lang $lang) (ne .Permalink $self) }}
+          {{- $filtered = $filtered | append . }}
+        {{- end }}
+      {{- end }}
+      {{- range $filtered }}
       <a href="{{ .Permalink }}" class="tool-card">
         <div class="tool-card-header">
           {{- if and .Params.tools (reflect.IsMap .Params.tools) .Params.tools.logo -}}
@@ -38,7 +45,6 @@
           <span class="tool-card-arrow">→</span>
         </div>
       </a>
-      {{- end }}
       {{- end }}
     </div>
 

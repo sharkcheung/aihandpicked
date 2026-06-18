@@ -16,7 +16,7 @@
 
   {{- /* Tool Card Grid */ -}}
   <div class="tool-card-grid" id="tools-grid">
-    {{- range .Pages }}
+    {{- range where .Pages ".Name" "ne" "_index" }}
     <a href="{{ .Permalink }}" class="tool-card">
       <div class="tool-card-header">
         {{- if and .Params.tools (reflect.IsMap .Params.tools) .Params.tools.logo -}}
